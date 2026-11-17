@@ -12,3 +12,8 @@
 ## Stage 2 (Nov 17, 01:05 CT): engines and tests
 - `lib/match` (hard filters, size path, weighted score with reasons, blend, closer source), `lib/logistics` (cube-out freight, FTL/LTL/parcel/van, landed-cost quote), `lib/orders` (state machine, escrow money split), `lib/credits`.
 - 24 unit tests pass (`npm test`).
+
+## Stages 3–4 (Nov 17, ~02:00 CT, work in progress): buyer flow, orders, documents
+- Browser demo store with a seeded set of 6 scenarios (`lib/store`), mock email/payments, ORS routing with estimate fallback, Stripe test and Resend adapters (untested; no keys).
+- Pages: `/request` (wizard), `/rfq` (ranked matches, blend, closer source, samples, messages), `/lot` (passport, QR), `/quote`, `/order` (state machine, escrow, shipment, compliance), `/doc` (8 printable documents), `/account`.
+- `npm run build` passes. The run stopped here; the map page is a placeholder and stages 5–7 are not started.
