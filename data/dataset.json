@@ -1,0 +1,5689 @@
+{
+ "stats": {
+  "generated": "2026-11-17",
+  "producers": 82,
+  "buyers": 41,
+  "partners": 18,
+  "demo_lots": 26,
+  "demo_orgs": 6,
+  "by_state": {
+   "GA": 2,
+   "CA": 8,
+   "OR": 4,
+   "IA": 2,
+   "LA": 3,
+   "AR": 3,
+   "MS": 2,
+   "WA": 6,
+   "PA": 4,
+   "VA": 2,
+   "NY": 3,
+   "MI": 3,
+   "WY": 1,
+   "ME": 2,
+   "CO": 2,
+   "NJ": 1,
+   "MO": 2,
+   "IN": 2,
+   "WI": 2,
+   "n/s": 5,
+   "MN": 2,
+   "UT": 1,
+   "MT": 1,
+   "MA": 3,
+   "NH": 1,
+   "VT": 1,
+   "ND": 1,
+   "TX": 6,
+   "NC": 2,
+   "MD": 1,
+   "KY": 1,
+   "AZ": 1,
+   "AL": 1,
+   "TN": 1
+  },
+  "by_feed": {
+   "wood": 32,
+   "ag": 7,
+   "biosolids": 4,
+   "unknown": 35,
+   "manure": 2,
+   "bone": 1,
+   "mixed": 1
+  },
+  "by_status": {
+   "operating": 37,
+   "planned": 5,
+   "unknown": 39,
+   "pilot": 1
+  },
+  "by_depth": {
+   "product_page": 4,
+   "project_research": 17,
+   "listing": 61
+  },
+  "by_confidence": {
+   "high": 3,
+   "medium": 52,
+   "low": 27
+  },
+  "by_precision": {
+   "city": 49,
+   "state": 27,
+   "site": 1,
+   "none": 5
+  },
+  "buyers_by_provenance": {
+   "published": 27,
+   "interview": 6,
+   "estimate": 8
+  },
+  "buyers_by_type": {
+   "product_maker": 11,
+   "research": 1,
+   "buyer": 10,
+   "blender": 8,
+   "segment": 10,
+   "gatekeeper": 1
+  },
+  "partners_by_type": {
+   "lab": 7,
+   "registry": 3,
+   "standards": 3,
+   "software": 3,
+   "competitor": 2
+  },
+  "publishes_psd": 2,
+  "publishes_lab": 4,
+  "publishes_price": 2,
+  "coarse_known": 4,
+  "has_certs": 7,
+  "avg_gap": 0.89
+ },
+ "sources": {
+  "usbi": "https://biochar-us.org/node/18",
+  "usbiDir": "https://biochar-us.org/directory",
+  "abi": "https://biochar.org/industry-directory/",
+  "team": "project:claude/us-biochar-carbon-credit-landscape.md",
+  "v01": "repo:lib/data.js@v0.1",
+  "buyers": "project:claude/bulk-biochar-buyers-oct28.md",
+  "contacts": "project:claude/segment-contacts-applications.md"
+ },
+ "producers": [
+  {
+   "id": "wakefield",
+   "name": "Wakefield BioChar",
+   "type": "producer",
+   "website": "https://wakefieldbiochar.com",
+   "sites": [
+    {
+     "city": "Valdosta",
+     "state": "GA",
+     "lat": 30.83,
+     "lng": -83.28,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Fitzgerald",
+     "state": "GA",
+     "lat": 31.71,
+     "lng": -83.25,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Brunswick",
+     "state": "GA",
+     "lat": 31.15,
+     "lng": -81.49,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Pine bark, sawdust",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": 63600,
+   "status": "operating",
+   "certifications": [
+    "Puro",
+    "OMRI (Premium, AG)"
+   ],
+   "products": [
+    {
+     "name": "Premium Biochar",
+     "psd": "≥95% <2 mm",
+     "sizes": [
+      "medium"
+     ],
+     "properties": "Organic carbon 85–95%",
+     "packaging": "2 m³ bulk bags; loose truckloads ~16–20 short tons",
+     "min_order": "1 bulk bag",
+     "list_price": "Not listed (FOB Valdosta). Earlier page: 2 yd³ supersack suggested $375"
+    },
+    {
+     "name": "Biochar AG",
+     "psd": "≥90% <2 mm",
+     "sizes": [
+      "medium"
+     ],
+     "properties": "Organic carbon 50–65%"
+    },
+    {
+     "name": "Premium Biochar LM",
+     "psd": "80% ≤3 mm",
+     "sizes": [
+      "medium"
+     ],
+     "properties": "Organic carbon 80–95%"
+    },
+    {
+     "name": "CarbonMicro 50",
+     "psd": "<50 µm",
+     "sizes": [
+      "fine"
+     ],
+     "properties": "Organic carbon 85–95%"
+    }
+   ],
+   "sells_credits": true,
+   "channels": [
+    "Retail",
+    "Bulk",
+    "Credits",
+    "Technical carbon"
+   ],
+   "source_url": "https://wakefieldbiochar.com/where-to-buy-biochar/buying-in-bulk",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "product_page",
+   "extra_sources": [
+    "project:claude/us-biochar-carbon-credit-landscape.md",
+    "https://wakefieldbiochar.com/?p=7509"
+   ],
+   "notes": "Largest US supplier by delivered tonnes (CDR.fyi via team research). Publishes size bands per product; no grade coarser than 3 mm found. Ash, pH, surface area and lab not published on the bulk page.",
+   "gaps": [],
+   "data_gap_score": 0,
+   "sizes": [
+    "medium",
+    "fine"
+   ],
+   "coarse_offered": false
+  },
+  {
+   "id": "pacific",
+   "name": "Pacific Biochar",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Santa Rosa",
+     "state": "CA",
+     "lat": 38.44,
+     "lng": -122.71,
+     "coord_precision": "city",
+     "label": "HQ"
+    },
+    {
+     "city": "Colbert",
+     "state": "GA",
+     "lat": 34.04,
+     "lng": -83.21,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Scotia",
+     "state": "CA",
+     "lat": 40.48,
+     "lng": -124.1,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Sawmill and forest residues (at biomass power plants)",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": 57600,
+   "status": "operating",
+   "certifications": [
+    "EBC (Carbonfuture)",
+    "Isometric"
+   ],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Bulk",
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Sites in CA, GA and HI at biomass power plants. Sells mainly to agriculture and credit buyers.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "freres",
+   "name": "Freres (Evergreen BioPower)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Lyons",
+     "state": "OR",
+     "lat": 44.78,
+     "lng": -122.61,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Mill waste wood 62%, forest 28%, ag 10%",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": 29700,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "obs",
+   "name": "Oregon Biochar Solutions",
+   "type": "producer",
+   "website": "https://chardirect.com",
+   "sites": [
+    {
+     "city": "White City",
+     "state": "OR",
+     "lat": 42.44,
+     "lng": -122.86,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood and forest residues",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": 21400,
+   "status": "operating",
+   "certifications": [
+    "Puro"
+   ],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Bulk",
+    "Credits",
+    "Stormwater (USBI application tag)"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "First CDR credits in the Americas (2021). Listed under stormwater and mine reclamation applications in the USBI directory.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "dcfp",
+   "name": "Douglas County Forest Products",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Roseburg",
+     "state": "OR",
+     "lat": 43.22,
+     "lng": -123.34,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Sawmill chips, sawdust, bark",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": 13200,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "liferaft",
+   "name": "Liferaft",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "West Liberty",
+     "state": "IA",
+     "lat": 41.57,
+     "lng": -91.26,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Ag and municipal biomass",
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Microsoft 1M-unit, 10-year deal (Mar 2026). Also Muscatine County, IA and Illinois.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "applied",
+   "name": "Applied Carbon (mobile)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "TX / OK / AR / LA",
+     "state": "LA",
+     "lat": 32.5,
+     "lng": -93.75,
+     "coord_precision": "state"
+    }
+   ],
+   "feedstock": "Crop residues (stover, straw, cane)",
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [
+    "Puro"
+   ],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits",
+    "In-field application"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Mobile in-field units; pin is approximate.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "abc",
+   "name": "American BioCarbon",
+   "type": "producer",
+   "website": "https://americanbiocarbon.com/",
+   "sites": [
+    {
+     "city": "White Castle",
+     "state": "LA",
+     "lat": 30.17,
+     "lng": -91.15,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Sugarcane bagasse",
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [
+    "Puro"
+   ],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "At Cora Texas sugar mill. Plans up to 175–240k credits/yr.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "coldsteppe",
+   "name": "Cold Steppe",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Stuttgart",
+     "state": "AR",
+     "lat": 34.5,
+     "lng": -91.55,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Rice hulls",
+   "feedClass": "ag",
+   "capacity_t_yr": 10000,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Bulk (ag co-ops)",
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Commissioned Dec 2025; doubling in 2026. Sells to farmers through co-ops.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "blusky",
+   "name": "BluSky Carbon",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Warren",
+     "state": "AR",
+     "lat": 33.61,
+     "lng": -92.06,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Yellow pine chips",
+   "feedClass": "wood",
+   "capacity_t_yr": 40000,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "40k t/yr is a capacity target.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "aymium",
+   "name": "Aymium (with Steel Dynamics)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Columbus",
+     "state": "MS",
+     "lat": 33.5,
+     "lng": -88.43,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Pine thinnings",
+   "feedClass": "wood",
+   "capacity_t_yr": 160000,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Steel biocarbon (self-supply)"
+   ],
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Biocarbon for steel, expanding to 480k t/yr. Not a CDR end use.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "myno",
+   "name": "Myno Carbon",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Kettle Falls",
+     "state": "WA",
+     "lat": 48.61,
+     "lng": -118.06,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Port Angeles",
+     "state": "WA",
+     "lat": 48.12,
+     "lng": -123.43,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood residuals",
+   "feedClass": "wood",
+   "capacity_t_yr": 40000,
+   "delivered_t": null,
+   "status": "planned",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "$20.49M USDA grant (Oct 2024). Verify operating status.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "metzler",
+   "name": "Metzler Forest Products (Metzler Biochar)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Reedsville",
+     "state": "PA",
+     "lat": 40.66,
+     "lng": -77.59,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Land-clearing and forestry wood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Char21 SW stormwater media",
+     "sizes": [
+      "coarse",
+      "medium"
+     ],
+     "properties": "Tested at WVU (Dr. Shawn Grushecky), per team research"
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Stormwater media (Char21 SW)",
+    "Engineered soils",
+    "Heat"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "project:claude/segment-contacts-applications.md"
+   ],
+   "notes": "Makes Char21 SW stormwater media; a rare producer with a stormwater-specific product. Size band not found published: call to confirm.",
+   "gaps": [
+    "Particle size data",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [
+    "coarse",
+    "medium"
+   ],
+   "coarse_offered": true
+  },
+  {
+   "id": "swva",
+   "name": "SWVA Biochar",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Floyd County",
+     "state": "VA",
+     "lat": 36.91,
+     "lng": -80.32,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Virginia biomass",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Bulk",
+    "Compost blends"
+   ],
+   "source_url": "repo:lib/data.js@v0.1",
+   "source_date": "2026-11-05",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Expanding with new kilns ($2.6M).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "restoration",
+   "name": "Restoration Bioproducts",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Sussex County",
+     "state": "VA",
+     "lat": 36.92,
+     "lng": -77.26,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "planned",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "repo:lib/data.js@v0.1",
+   "source_date": "2026-11-05",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "project_research",
+   "notes": "$5.8M plant announced. Verify status.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nycarbon",
+   "name": "NY Carbon",
+   "type": "producer",
+   "website": "https://nycarbon.co",
+   "sites": [
+    {
+     "city": "Hudson Valley",
+     "state": "NY",
+     "lat": 41.7,
+     "lng": -73.93,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Agriculture",
+    "Filtration",
+    "Building materials",
+    "Credits"
+   ],
+   "source_url": "https://www.cdr.fyi/supplier/ny-carbon",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "Describes itself as the largest producer in the Hudson Valley, supplying NY and New England for agriculture, filtration and building materials. Feedstock not published (assumed wood).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "supreme",
+   "name": "Biochar Supreme (Black Owl Biochar)",
+   "type": "producer",
+   "website": "https://www.biocharsupreme.com",
+   "sites": [
+    {
+     "city": "Everson",
+     "state": "WA",
+     "lat": 48.92,
+     "lng": -122.34,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Black Owl Stormwater Mix",
+     "psd": "Described only as sized for most bioretention systems; no sieve data",
+     "sizes": [
+      "medium"
+     ],
+     "properties": "Environmental Ultra component: ~800 m²/g surface area (company claim)",
+     "packaging": "Bulk, totes, cubic-foot bags; 1.25 qt test sample"
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Bioretention",
+    "Stormwater"
+   ],
+   "source_url": "https://www.environmental-expert.com/products/stormwater-mix-945374",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "product_page",
+   "extra_sources": [
+    "https://biochar-us.org/node/18"
+   ],
+   "notes": "Sells blends by the bag, cubic foot, cubic yard or truckload (USBI). Stormwater product has no published sieve analysis or lab report.",
+   "gaps": [
+    "Certifications",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.38,
+   "sizes": [
+    "medium"
+   ],
+   "coarse_offered": false
+  },
+  {
+   "id": "amerbiochar",
+   "name": "American BioChar Company",
+   "type": "producer",
+   "website": "https://www.ambiochar.com",
+   "sites": [
+    {
+     "city": "Niles",
+     "state": "MI",
+     "lat": 41.83,
+     "lng": -86.25,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [
+    "IBI",
+    "OMRI"
+   ],
+   "products": [
+    {
+     "name": "Biochar soil amendments (granular and liquid, humate blends)",
+     "sizes": [
+      "medium"
+     ]
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Landscape",
+    "Turf and tree",
+    "Stormwater (USBI application tag)"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory",
+    "repo:lib/data.js@v0.1"
+   ],
+   "notes": "Nearest mapped producer to Chicago (~95 road miles). Tagged for stormwater in the USBI directory. Size bands not published.",
+   "gaps": [
+    "Particle size data",
+    "Lab values",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [
+    "medium"
+   ],
+   "coarse_offered": false
+  },
+  {
+   "id": "highplains",
+   "name": "High Plains Biochar",
+   "type": "producer",
+   "website": "http://www.HPBiochar.com",
+   "sites": [
+    {
+     "city": "Laramie",
+     "state": "WY",
+     "lat": 41.31,
+     "lng": -105.59,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Forest wood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Wholesale",
+    "Consulting",
+    "Equipment"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "standard",
+   "name": "Standard Biocarbon",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Enfield",
+     "state": "ME",
+     "lat": 45.25,
+     "lng": -68.57,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Spruce and fir sawmill residues (Pleasant River Lumber)",
+   "feedClass": "wood",
+   "capacity_t_yr": 1200,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Concrete",
+    "Agriculture",
+    "Credits"
+   ],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "extra_sources": [
+    "https://standardbiocarbon.squarespace.com/news-blog"
+   ],
+   "notes": "Read Custom Soils is its exclusive New England distributor (company news). Involved in a PFAS crop-uptake study.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "cleanmaine",
+   "name": "Clean Maine Carbon",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Greenville",
+     "state": "ME",
+     "lat": 45.46,
+     "lng": -69.59,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood chips",
+   "feedClass": "wood",
+   "capacity_t_yr": 1200,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biocharnow",
+   "name": "Biochar Now",
+   "type": "producer",
+   "website": "https://www.biocharnow.com",
+   "sites": [
+    {
+     "city": "Berthoud",
+     "state": "CO",
+     "lat": 40.31,
+     "lng": -105.08,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Beetle-kill and fire wood, yard waste",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Products",
+    "Pyrolysis systems",
+    "Credits"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "project:claude/us-biochar-carbon-credit-landscape.md"
+   ],
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "aries",
+   "name": "Aries Clean Technologies (Aries GREEN Biochar)",
+   "type": "producer",
+   "website": "https://ariescleantech.com/biochar/",
+   "sites": [
+    {
+     "city": "Linden",
+     "state": "NJ",
+     "lat": 40.62,
+     "lng": -74.24,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Franklin",
+     "state": "TN",
+     "lat": 35.93,
+     "lng": -86.87,
+     "coord_precision": "city",
+     "label": "HQ"
+    }
+   ],
+   "feedstock": "Biosolids (gasification)",
+   "feedClass": "biosolids",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Green infrastructure",
+    "Horticulture",
+    "Credits"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "project:claude/us-biochar-carbon-credit-landscape.md"
+   ],
+   "notes": "Claims up to 97% PFAS destruction (company claim).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "bioforcetech",
+   "name": "Bioforcetech (OurCarbon)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Redwood City",
+     "state": "CA",
+     "lat": 37.49,
+     "lng": -122.24,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Biosolids",
+   "feedClass": "biosolids",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "OurCarbon",
+     "sizes": [
+      "fine"
+     ]
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Concrete (ready-mix dosing)"
+   ],
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "$310k grant for a batch-plant dosing system (Jul 2026).",
+   "gaps": [
+    "Particle size data",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [
+    "fine"
+   ],
+   "coarse_offered": false
+  },
+  {
+   "id": "glanris",
+   "name": "Glanris",
+   "type": "producer",
+   "website": "https://www.glanris.com",
+   "sites": [
+    {
+     "city": "Olive Branch",
+     "state": "MS",
+     "lat": 34.96,
+     "lng": -89.83,
+     "coord_precision": "city"
+    },
+    {
+     "city": "Memphis",
+     "state": "TN",
+     "lat": 35.15,
+     "lng": -90.05,
+     "coord_precision": "city",
+     "label": "HQ"
+    }
+   ],
+   "feedstock": "Rice hulls",
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Rice-hull filtration media",
+     "sizes": [
+      "medium",
+      "coarse"
+     ]
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Water filtration media",
+    "Concrete"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://archive.biochar-us.org/biochar-product-applications/industrial-materials?page=1",
+    "project:claude/segment-contacts-applications.md"
+   ],
+   "notes": "Makes its own filtration media; a competitor and a possible supplier of coarse grades. Tim (Mississippi State) recalled the company struggled with credits.",
+   "gaps": [
+    "Particle size data",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [
+    "medium",
+    "coarse"
+   ],
+   "coarse_offered": true
+  },
+  {
+   "id": "terrachar",
+   "name": "Terra Char (BioEnergy Innovations Global)",
+   "type": "producer",
+   "website": "https://www.terra-char.com",
+   "sites": [
+    {
+     "city": "Columbia",
+     "state": "MO",
+     "lat": 38.95,
+     "lng": -92.33,
+     "coord_precision": "site"
+    }
+   ],
+   "feedstock": "Multiple wood biomass streams",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Terra Char",
+     "properties": "Fixed carbon 76–94%; internal minimums on H/C and absorption (values not published)",
+     "packaging": "5-gallon buckets, super totes, bulk semi loads"
+    }
+   ],
+   "sells_credits": true,
+   "channels": [
+    "Soil",
+    "Bioremediation",
+    "Industrial"
+   ],
+   "source_url": "https://biochar.org/industry-directory/bioenergy-innovations-global-inc-terra-char/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "product_page",
+   "extra_sources": [
+    "https://biochar-us.org/node/860"
+   ],
+   "notes": "Producing in the Midwest since 2009. 151 E Dripping Springs Rd. ~390 road miles from Chicago. Particle sizes not published.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Certifications",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "arti",
+   "name": "ARTi (Advanced Renewable Technology International)",
+   "type": "producer",
+   "website": "https://www.arti.com",
+   "sites": [
+    {
+     "city": "Prairie City",
+     "state": "IA",
+     "lat": 41.6,
+     "lng": -93.24,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Biochar",
+    "Wood vinegar",
+    "Pyrolysis systems"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "Supplies biochar and modular pyrolysis systems. Feedstock and sizes not listed.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "blackwood",
+   "name": "Blackwood Solutions",
+   "type": "producer",
+   "website": "https://www.bwoodsolutions.com",
+   "sites": [
+    {
+     "city": "Bloomington",
+     "state": "IN",
+     "lat": 39.17,
+     "lng": -86.53,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Wood waste (mobile carbonizer, on site)",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Mobile carbonizer output is usually unscreened; coarse fractions may be available. Confirm by call.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "ecochar-in",
+   "name": "Ecochar",
+   "type": "producer",
+   "website": "https://www.ecochar.org",
+   "sites": [
+    {
+     "city": "Indiana",
+     "state": "IN",
+     "lat": 39.77,
+     "lng": -86.16,
+     "coord_precision": "state"
+    }
+   ],
+   "feedstock": "Manure",
+   "feedClass": "manure",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Landscape",
+    "Turf and tree"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "greenquest",
+   "name": "GreenQuest (Green Quest LLC)",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Richfield",
+     "state": "WI",
+     "lat": 43.26,
+     "lng": -88.19,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Specialty crops",
+    "Custom biochar solutions"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "~110 road miles from Chicago.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "groh",
+   "name": "GROH Land Air & Water",
+   "type": "producer",
+   "website": "https://www.grohusa.com/biochar",
+   "sites": [
+    {
+     "city": "Wisconsin",
+     "state": "WI",
+     "lat": 43.07,
+     "lng": -88.2,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Consulting"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Listed under Wisconsin in the USBI directory; city not shown.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biomass-solution",
+   "name": "BioMass Solution LLC",
+   "type": "producer",
+   "website": "https://www.biomasssolution.com/",
+   "sites": [
+    {
+     "city": "Midwest (location not stated)",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "feedstock": "Cow manure (per AFT description of a regional producer)",
+   "feedClass": "manure",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://farmland.org/files/illinois-biochar.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Named by American Farmland Trust as a candidate supplier for Illinois corn-soy trials.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "circularity2",
+   "name": "Circularity2",
+   "type": "producer",
+   "website": "https://www.circularity2.com/",
+   "sites": [
+    {
+     "city": "Midwest (location not stated)",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://farmland.org/files/illinois-biochar.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Named by American Farmland Trust as a candidate supplier for Illinois trials. AFT notes Illinois lacks local wood-residue biochar.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nct",
+   "name": "National Carbon Technologies",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Upper Peninsula",
+     "state": "MI",
+     "lat": 46.28,
+     "lng": -87.44,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Biocarbon"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Listed in the USBI directory with a 906 (Upper Peninsula) phone number. Product focus to confirm.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "carter",
+   "name": "Carter Family Associates",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Michigan",
+     "state": "MI",
+     "lat": 43.6,
+     "lng": -84.2,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "regen-agri",
+   "name": "Regen Agri-Source",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Missouri",
+     "state": "MO",
+     "lat": 38.5,
+     "lng": -92.5,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "mn-plant",
+   "name": "Minneapolis-area municipal biochar plant",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Minneapolis",
+     "state": "MN",
+     "lat": 44.98,
+     "lng": -93.27,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Utility tree trimmings, ash trees (emerald ash borer)",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "planned",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://dnr.state.mn.us/mcvmagazine/issues/2025/mar-apr/dispatch.html",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "MN DNR magazine (Mar–Apr 2025): $1.5M plant to process 3,600 tons of wood feedstock per year. Operator and status to confirm.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nrri-pilot",
+   "name": "NRRI biochar pilot (University of Minnesota Duluth)",
+   "type": "research",
+   "sites": [
+    {
+     "city": "Coleraine",
+     "state": "MN",
+     "lat": 47.29,
+     "lng": -93.43,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "pilot",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://dnr.state.mn.us/mcvmagazine/issues/2025/mar-apr/dispatch.html",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Research-scale production at a former U.S. Steel site. NRRI also seeks a local producer for passive filters (team research).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "gobiochar",
+   "name": "GoBiochar",
+   "type": "distributor",
+   "website": "https://gobiochar.com",
+   "sites": [
+    {
+     "city": "Salt Lake City",
+     "state": "UT",
+     "lat": 40.76,
+     "lng": -111.89,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Bulk sourcing (US, Canada, Mexico)",
+    "Soil amendments"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Human broker; a direct competitor to the matching part of CharLink. Tagged for stormwater and mine reclamation in the USBI directory.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "genesis",
+   "name": "Genesis Biochar",
+   "type": "producer",
+   "website": "https://genesisbiochar.com/",
+   "sites": [
+    {
+     "city": "Somers",
+     "state": "MT",
+     "lat": 48.08,
+     "lng": -114.22,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Field crops"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nextchar",
+   "name": "NextChar",
+   "type": "producer",
+   "website": "https://www.nextchar.com",
+   "sites": [
+    {
+     "city": "Massachusetts",
+     "state": "MA",
+     "lat": 42.37,
+     "lng": -72.52,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Vineyards",
+    "Field agriculture"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "olympic",
+   "name": "Olympic Biochar",
+   "type": "producer",
+   "website": "https://www.olympicbiochar.com",
+   "sites": [
+    {
+     "city": "Port Townsend",
+     "state": "WA",
+     "lat": 48.12,
+     "lng": -122.76,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Vineyards",
+    "Field agriculture"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "agramarketing",
+   "name": "AgraMarketing Solutions (Rogue Biochar)",
+   "type": "producer",
+   "website": "https://www.agramarketing.com",
+   "sites": [
+    {
+     "city": "Chico",
+     "state": "CA",
+     "lat": 39.73,
+     "lng": -121.84,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Rogue Biochar",
+     "min_order": "Truckload reservations with 10% deposit (2017 pricing page)"
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Vineyards",
+    "Field agriculture"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "apl",
+   "name": "All Power Labs",
+   "type": "producer",
+   "website": "https://www.allpowerlabs.com",
+   "sites": [
+    {
+     "city": "Berkeley",
+     "state": "CA",
+     "lat": 37.87,
+     "lng": -122.29,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Gasifier co-product char",
+    "Local carbon network"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Bulk purchase requests handled by email (company site).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "bluesky-ca",
+   "name": "Blue Sky Biochar",
+   "type": "producer",
+   "website": "https://www.blueskybiochar.com",
+   "sites": [
+    {
+     "city": "Thousand Oaks",
+     "state": "CA",
+     "lat": 34.17,
+     "lng": -118.84,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Landscape",
+    "Wood vinegar"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "sitos",
+   "name": "Sitos Group (with Treehouse California Almonds)",
+   "type": "producer",
+   "website": "https://www.sitos.earth/",
+   "sites": [
+    {
+     "city": "Delano",
+     "state": "CA",
+     "lat": 35.77,
+     "lng": -119.25,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Almond shells and hulls",
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Compost blends for growers"
+   ],
+   "source_url": "https://igrownews.com/sitos-group-latest-news/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "notes": "First load off the commercial line announced Oct 7, 2026; full output expected within weeks. Biochar is blended with compost.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "again",
+   "name": "Again & Again Farmstead",
+   "type": "producer",
+   "website": "https://www.againfarmstead.com",
+   "sites": [
+    {
+     "city": "New Hampshire",
+     "state": "NH",
+     "lat": 43.4,
+     "lng": -71.6,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Farm products"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "USBI scale category: 200–300 tons biomass per year.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "greenstate",
+   "name": "Green State Biochar",
+   "type": "producer",
+   "website": "http://greenstatebiochar.com",
+   "sites": [
+    {
+     "city": "Northeast Kingdom",
+     "state": "VT",
+     "lat": 44.75,
+     "lng": -72,
+     "coord_precision": "state"
+    }
+   ],
+   "feedstock": "Vermont hardwood and softwood",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Field crops",
+    "Phosphorus filtration"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://www.vsjf.org/2019/06/10/forests-filtration-and-farms-vermont-company-bets-on-biochar-to-clean-up-lake-champlain/"
+   ],
+   "notes": "Tests biochar for phosphorus capture (Lake Champlain). A filtration-minded producer.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nebiochar",
+   "name": "New England Biochar",
+   "type": "producer",
+   "website": "https://www.newenglandbiochar.org",
+   "sites": [
+    {
+     "city": "Eastham",
+     "state": "MA",
+     "lat": 41.83,
+     "lng": -69.97,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Biochar compost",
+    "Retort systems"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biosphere",
+   "name": "BioSphere Carbon Group",
+   "type": "producer",
+   "website": "https://biospherecarbon.com",
+   "sites": [
+    {
+     "city": "Vancouver",
+     "state": "WA",
+     "lat": 45.64,
+     "lng": -122.66,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Agriculture",
+    "Environmental remediation"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "blackbison",
+   "name": "Black Bison Organics",
+   "type": "producer",
+   "website": "https://www.blackbison.org",
+   "sites": [
+    {
+     "city": "Bismarck",
+     "state": "ND",
+     "lat": 46.81,
+     "lng": -100.78,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Organic soil solutions"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "backwoods",
+   "name": "Backwoods Biochar",
+   "type": "producer",
+   "website": "https://www.backwoodsbiochar.com",
+   "sites": [
+    {
+     "city": "Battle Ground",
+     "state": "WA",
+     "lat": 45.78,
+     "lng": -122.53,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Cannabis and hemp growers"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biologicalcarbon",
+   "name": "Biological Carbon LLC",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Philomath",
+     "state": "OR",
+     "lat": 44.54,
+     "lng": -123.37,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Custom biochars for stormwater filters",
+     "sizes": [
+      "coarse",
+      "medium"
+     ]
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Stormwater",
+    "Green infrastructure",
+    "Soil amendment"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://cms.unl.edu/ianr/nebraska-forest-service/sites/unl.edu.ianr.nebraska-forest-service/files/media/file/BIOCHAR_Stormwater-sheet_DIGITAL-rev.pdf"
+   ],
+   "notes": "Custom biochars for stormwater. Credited as the filter maker in a Nebraska Forest Service stormwater fact sheet. Sizes made to order; confirm bands.",
+   "gaps": [
+    "Particle size data",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [
+    "coarse",
+    "medium"
+   ],
+   "coarse_offered": true
+  },
+  {
+   "id": "brimac",
+   "name": "Brimac Char",
+   "type": "producer",
+   "website": "https://brimacchar.com",
+   "sites": [
+    {
+     "city": "Alamo",
+     "state": "TX",
+     "lat": 26.18,
+     "lng": -98.12,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Bone",
+   "feedClass": "bone",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [
+    {
+     "name": "Bone char for water filtration",
+     "sizes": [
+      "coarse",
+      "medium"
+     ]
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Water filtration"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Bone char is granular filtration media, not wood biochar; different chemistry (hydroxyapatite).",
+   "gaps": [
+    "Particle size data",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.75,
+   "sizes": [
+    "coarse",
+    "medium"
+   ],
+   "coarse_offered": true
+  },
+  {
+   "id": "carboculture",
+   "name": "Carbo Culture",
+   "type": "producer",
+   "website": "https://carboculture.com",
+   "sites": [
+    {
+     "city": "Los Altos",
+     "state": "CA",
+     "lat": 37.38,
+     "lng": -122.11,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Agriculture"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Older USBI listing; verify current US operations.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "chargrow",
+   "name": "CharGrow",
+   "type": "producer",
+   "website": "https://www.carbonchar.com",
+   "sites": [
+    {
+     "city": "Asheville",
+     "state": "NC",
+     "lat": 35.6,
+     "lng": -82.55,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Custom soil amendments"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "https://biochar-us.org/directory"
+   ],
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biocharcentral",
+   "name": "BiocharCentral",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Marietta",
+     "state": "GA",
+     "lat": 33.95,
+     "lng": -84.55,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Horticulture",
+    "Landscape",
+    "Turf and tree"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biocharsolutions",
+   "name": "Biochar Solutions",
+   "type": "producer",
+   "website": "https://www.biocharsolutions.com",
+   "sites": [
+    {
+     "city": "Carbondale",
+     "state": "CO",
+     "lat": 39.4,
+     "lng": -107.21,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Wholesale biochar",
+    "Equipment (B-1000)",
+    "Asphalt (exclusive supply to Verde)"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "extra_sources": [
+    "project:claude/bulk-biochar-buyers-oct28.md"
+   ],
+   "notes": "Team research: supply deal with Verde Resources for up to 38,500 short t/yr, exclusive for asphalt.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "xlii",
+   "name": "XLII BioChar",
+   "type": "producer",
+   "website": "https://42biochar.com",
+   "sites": [
+    {
+     "city": "Maryland",
+     "state": "MD",
+     "lat": 39.05,
+     "lng": -76.64,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Wholesale",
+    "Equipment"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 443 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "ashwood",
+   "name": "Ashwood Biochar",
+   "type": "producer",
+   "website": "https://ashwoodbiochar.com/",
+   "sites": [
+    {
+     "city": "Kentucky",
+     "state": "KY",
+     "lat": 37.84,
+     "lng": -84.27,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Wholesale",
+    "Consulting"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "redmountain",
+   "name": "Red Mountain BioChar",
+   "type": "producer",
+   "website": "https://redmountainbiochar.com",
+   "sites": [
+    {
+     "city": "East Texas",
+     "state": "TX",
+     "lat": 32.35,
+     "lng": -95.3,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Wholesale"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "swbiochar",
+   "name": "Southwest Biochar Products",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Arizona",
+     "state": "AZ",
+     "lat": 34.5,
+     "lng": -111.5,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Wholesale",
+    "R&D"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 928 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "prime6",
+   "name": "Prime 6",
+   "type": "producer",
+   "website": "https://www.prime6.com/biochar",
+   "sites": [
+    {
+     "city": "Location not stated",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "ecochar-env",
+   "name": "Ecochar Environmental Solutions",
+   "type": "producer",
+   "website": "https://www.ecocharenvironmentalsolutions.net/",
+   "sites": [
+    {
+     "city": "Pennsylvania",
+     "state": "PA",
+     "lat": 40.2,
+     "lng": -75.3,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Wholesale",
+    "Environmental management",
+    "R&D"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 267 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "wonderchar",
+   "name": "Wonderchar",
+   "type": "producer",
+   "website": "http://www.wonderchar.tech",
+   "sites": [
+    {
+     "city": "Texas",
+     "state": "TX",
+     "lat": 29.76,
+     "lng": -95.37,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Wholesale",
+    "Equipment"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "qualterra",
+   "name": "Qualterra",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Eastern Washington",
+     "state": "WA",
+     "lat": 46.73,
+     "lng": -117.18,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "ag",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Biomass processing",
+    "Equipment"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 509 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "blueworld",
+   "name": "Blue World BioChar",
+   "type": "producer",
+   "website": "http://www.blueworldbiochar.com",
+   "sites": [
+    {
+     "city": "Massachusetts",
+     "state": "MA",
+     "lat": 42.1,
+     "lng": -71.4,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 508 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "earthcare",
+   "name": "Earthcare Solutions",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Location not stated",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "feedstock": "Non-wood organic waste streams",
+   "feedClass": "mixed",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar.org/industry-directory/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Designs, finances, owns and operates non-wood biochar facilities (ABI directory).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "dfc",
+   "name": "Desired Future Conditions PBC",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Location not stated",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [],
+   "source_url": "https://biochar.org/industry-directory/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Biochar and carbon removal through landowner partnerships across North America (ABI directory).",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "wte",
+   "name": "Waste To Energy, Inc.",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Alabama",
+     "state": "AL",
+     "lat": 32.4,
+     "lng": -86.3,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 334 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "deltaland",
+   "name": "Delta Land Services",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Louisiana",
+     "state": "LA",
+     "lat": 30.45,
+     "lng": -91.15,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "urbanworm",
+   "name": "Urban Worm Company (bulk biochar reseller)",
+   "type": "distributor",
+   "sites": [
+    {
+     "city": "Plymouth Meeting",
+     "state": "PA",
+     "lat": 40.1,
+     "lng": -75.28,
+     "coord_precision": "city",
+     "label": "HQ"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [
+    "OMRI documentation on request"
+   ],
+   "products": [
+    {
+     "name": "Bulk biochar, full truckload",
+     "packaging": "Full truckload: 44,000 lb",
+     "min_order": "Full truckload on this listing",
+     "list_price": "$9,800 per truckload sale price (list $11,200), plus freight: about $490 per metric tonne before freight"
+    }
+   ],
+   "sells_credits": null,
+   "channels": [
+    "Resellers",
+    "Soil blenders",
+    "Landscapers",
+    "Growers"
+   ],
+   "source_url": "https://shop.urbanwormcompany.com/products/bulk-biochar-full-truckload",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "product_page",
+   "notes": "A rare public bulk price. No particle sizes or lab values on the listing.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 0.63,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nebs",
+   "name": "Northeastern Biochar Solutions",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Saratoga Springs",
+     "state": "NY",
+     "lat": 43.08,
+     "lng": -73.78,
+     "coord_precision": "city",
+     "label": "HQ"
+    }
+   ],
+   "feedstock": "Biosolids",
+   "feedClass": "biosolids",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "planned",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://www.cbinsights.com/company/northeastern-biochar-solutions",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Proposed biosolids plant in Moreau, NY faced local opposition. Verify status.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "protonpower",
+   "name": "Proton Power",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Tennessee",
+     "state": "TN",
+     "lat": 35.8,
+     "lng": -84.26,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Listed in the USBI directory under Tennessee.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "appliedgaia",
+   "name": "Applied Gaia",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Texas",
+     "state": "TX",
+     "lat": 29.9,
+     "lng": -95.6,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "soilworx",
+   "name": "Soil Worx",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Texas",
+     "state": "TX",
+     "lat": 29.6,
+     "lng": -95.2,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "nextwave",
+   "name": "NextWave Carbon Removal",
+   "type": "producer",
+   "website": "https://nextwavecr.com/",
+   "sites": [
+    {
+     "city": "Texas",
+     "state": "TX",
+     "lat": 30.27,
+     "lng": -97.74,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": true,
+   "channels": [
+    "Retail",
+    "Wholesale",
+    "Vineyards"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "State inferred from the 512 area code.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "itd",
+   "name": "International Tie Disposal",
+   "type": "producer",
+   "website": "https://tiedisposal.com",
+   "sites": [
+    {
+     "city": "North Carolina",
+     "state": "NC",
+     "lat": 35.23,
+     "lng": -80.84,
+     "coord_precision": "state"
+    }
+   ],
+   "feedstock": "Railroad ties",
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Treated-wood feedstock: contaminants (creosote, PAHs) must be checked before any filtration or soil use.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "ganrock",
+   "name": "Ganrock",
+   "type": "producer",
+   "website": "http://ganrock.com",
+   "sites": [
+    {
+     "city": "California",
+     "state": "CA",
+     "lat": 37.8,
+     "lng": -122.2,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Retail",
+    "Wholesale"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "envirapac",
+   "name": "enviraPAC Monticello",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Monticello",
+     "state": "AR",
+     "lat": 33.63,
+     "lng": -91.79,
+     "coord_precision": "city"
+    }
+   ],
+   "feedClass": "wood",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Stormwater (USBI application tag)"
+   ],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Listed under the stormwater application in the USBI directory. Location inferred from the name.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "orbital",
+   "name": "Orbital Biocarbon",
+   "type": "producer",
+   "sites": [
+    {
+     "city": "Pittsburgh",
+     "state": "PA",
+     "lat": 40.44,
+     "lng": -79.99,
+     "coord_precision": "city"
+    }
+   ],
+   "feedstock": "Sewage sludge",
+   "feedClass": "biosolids",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "planned",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [],
+   "source_url": "project:claude/us-biochar-carbon-credit-landscape.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Plant expected mid-2027. Revenue mostly tipping fees.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume"
+   ],
+   "data_gap_score": 0.88,
+   "sizes": [],
+   "coarse_offered": null
+  },
+  {
+   "id": "biochar365",
+   "name": "bio365",
+   "type": "blender",
+   "website": "https://www.bio365.com",
+   "sites": [
+    {
+     "city": "New York and California",
+     "state": "NY",
+     "lat": 42.44,
+     "lng": -76.5,
+     "coord_precision": "state"
+    }
+   ],
+   "feedClass": "unknown",
+   "capacity_t_yr": null,
+   "delivered_t": null,
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "sells_credits": null,
+   "channels": [
+    "Biochar growing media"
+   ],
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Makes biochar-based growing media; a buyer of biochar as well as a supplier of blends.",
+   "gaps": [
+    "Particle size data",
+    "Whether a coarse grade exists",
+    "Lab values",
+    "Certifications",
+    "Packaging / minimum order",
+    "Price",
+    "Capacity or volume",
+    "Feedstock"
+   ],
+   "data_gap_score": 1,
+   "sizes": [],
+   "coarse_offered": null
+  }
+ ],
+ "buyers": [
+  {
+   "id": "contech",
+   "name": "Contech Engineered Solutions",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "West Chester",
+     "state": "OH",
+     "lat": 39.33,
+     "lng": -84.41,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "decision_maker": "Media/product engineering, procurement",
+   "why_buy": "StormFilter cartridges accept several media; a consistent coarse grade with lot data fits a cartridge spec.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": ">200k cartridges installed; Certified Maintenance Provider network and cartridge exchange (team research)."
+  },
+  {
+   "id": "stormwaterx",
+   "name": "StormwateRx (Newterra)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Portland",
+     "state": "OR",
+     "lat": 45.52,
+     "lng": -122.68,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration",
+    "industrial_stormwater"
+   ],
+   "decision_maker": "Product engineering",
+   "why_buy": "Industrial stormwater metals filters (Aquip, Zinc-B-Gone); closest incumbent and a possible channel.",
+   "need_t_yr": null,
+   "source_url": "repo:lib/data.js@v0.1",
+   "source_date": "2026-11-05",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "oldcastle",
+   "name": "Oldcastle Infrastructure (FloGard inserts)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Atlanta",
+     "state": "GA",
+     "lat": 33.75,
+     "lng": -84.39,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "decision_maker": "Stormwater product team",
+   "why_buy": "Catch-basin inserts need media changed about yearly; small volume per unit, many units.",
+   "need_t_yr": null,
+   "source_url": "project:claude/per-client-volume-shipping-inventory-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "FloGard+Plus: service at least 3 times a year, media change once a year (team research). HQ city to confirm."
+  },
+  {
+   "id": "biopod-designer",
+   "name": "High-rate bioretention product designer (Bio Pod; interviewed)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Location not recorded",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration",
+    "bioretention"
+   ],
+   "decision_maker": "Product development team; civil site engineers specify",
+   "why_buy": "Proving media longevity is their biggest challenge; yearly agency inspection means media must last at least a year.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-synthesis-nov5.md",
+   "source_date": "2026-11-05",
+   "provenance": "interview",
+   "confidence": "high",
+   "review_depth": "project_research",
+   "notes": "Open to collaboration; joint longevity column test proposed."
+  },
+  {
+   "id": "ultratech",
+   "name": "UltraTech International (Drain Guard)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Jacksonville",
+     "state": "FL",
+     "lat": 30.33,
+     "lng": -81.66,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "decision_maker": "Product management",
+   "why_buy": "Heavy-metal catch-basin insert holds about 6 lb of media per unit.",
+   "need_t_yr": null,
+   "source_url": "project:claude/per-client-volume-shipping-inventory-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "HQ city to confirm."
+  },
+  {
+   "id": "newpig",
+   "name": "New Pig (heavy-metal filter bags)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Tipton",
+     "state": "PA",
+     "lat": 40.64,
+     "lng": -78.3,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "decision_maker": "Product management",
+   "why_buy": "Filter bags and socks need chunky media that stays in the bag.",
+   "need_t_yr": null,
+   "source_url": "project:claude/per-client-volume-shipping-inventory-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "HQ city to confirm."
+  },
+  {
+   "id": "sunmark",
+   "name": "Sunmark Environmental",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Oregon",
+     "state": "OR",
+     "lat": 45.5,
+     "lng": -122.6,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration",
+    "industrial_stormwater"
+   ],
+   "decision_maker": "Owner/technical lead",
+   "why_buy": "Already sells biochar metals media from mill residue; a competitor and a benchmark.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Claims ~60% lower cost than activated-carbon systems (team research)."
+  },
+  {
+   "id": "halenhardy",
+   "name": "Halen Hardy (Char21 SW)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "West Virginia",
+     "state": "WV",
+     "lat": 39.28,
+     "lng": -80.26,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "decision_maker": "Pat Sherren (Metzler/Char21) per team contacts",
+   "why_buy": "Markets biochar stormwater media in the East; possible partner or competitor.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "sbmp",
+   "name": "Stormwater BMP Products (BiocharPEAT)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Location not recorded",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "why_buy": "Sells a biochar-peat stormwater media.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "xylem",
+   "name": "Xylem / Evoqua (ion-exchange swap service)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Pittsburgh",
+     "state": "PA",
+     "lat": 40.44,
+     "lng": -79.99,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "decision_maker": "Service business unit",
+   "why_buy": "Runs the swap-and-regenerate service model for copper; an incumbent, not a likely buyer.",
+   "need_t_yr": null,
+   "source_url": "project:claude/finish-depot-placement-amc-model-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Evoqua HQ city to confirm."
+  },
+  {
+   "id": "nrri",
+   "name": "NRRI, University of Minnesota Duluth (passive biochar filters)",
+   "type": "research",
+   "sites": [
+    {
+     "city": "Duluth",
+     "state": "MN",
+     "lat": 46.79,
+     "lng": -92.1,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "stormwater_filtration",
+    "natural_pools"
+   ],
+   "decision_maker": "Dr. Bridget Ulrich",
+   "why_buy": "Seeking a local biochar producer for passive filters.",
+   "need_t_yr": null,
+   "source_url": "project:claude/segment-contacts-applications.md",
+   "source_date": "2026-10-15",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "bionova",
+   "name": "Bionova Natural Pools",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Location not recorded",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "natural_pools"
+   ],
+   "decision_maker": "Owner (intro via Tim, Mississippi State)",
+   "why_buy": "Liked biochar samples but they were too fine for the filter-sock system; wants chunky char.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-synthesis-nov5.md",
+   "source_date": "2026-11-05",
+   "provenance": "interview",
+   "confidence": "high",
+   "review_depth": "project_research",
+   "notes": "Premium niche. Spent char can be reused in flower beds and greenhouses."
+  },
+  {
+   "id": "midwest-trading",
+   "name": "Midwest Trading",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "West Chicago",
+     "state": "IL",
+     "lat": 41.88,
+     "lng": -88.2,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention",
+    "horticulture",
+    "green_roof"
+   ],
+   "decision_maker": "Technical sales / product lead",
+   "why_buy": "Custom-engineered soils for green roofs, bioswales and rain gardens; the blender is the buyer of certificates.",
+   "need_t_yr": null,
+   "source_url": "https://2026ppa.sched.com/sponsor/midwest_trading.29sh6dqw",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "listing",
+   "notes": "Wholesale supplier in Chicagoland for 40+ years. Supplies Ecogardens. Intro pending via Greg Raymond.",
+   "extra_sources": [
+    "project:claude/interview-greg-raymond.md",
+    "https://www.lawnandgardendirectory.org/store/m/11392-Midwest-Trading.aspx"
+   ]
+  },
+  {
+   "id": "greensoils",
+   "name": "GreenSoils Management",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Chicago area",
+     "state": "IL",
+     "lat": 41.95,
+     "lng": -88.05,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "decision_maker": "Owner / sales",
+   "why_buy": "Supplies bioswale mix, compost and amended soil in the Chicago area.",
+   "need_t_yr": null,
+   "source_url": "https://www.lawnandgardendirectory.org/greensoils-management.aspx",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "wecare",
+   "name": "WeCare Denali (WeCare Engineered Soils)",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Russellville",
+     "state": "AR",
+     "lat": 35.28,
+     "lng": -93.13,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "decision_maker": "Engineered soils sales",
+   "why_buy": "Blends bioretention, rain garden and custom soils to engineers' specifications.",
+   "need_t_yr": null,
+   "source_url": "https://denalicorp.com/?p=12918",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Operates in several regions; pin is the Denali HQ area and approximate."
+  },
+  {
+   "id": "chaney",
+   "name": "Chaney Enterprises (bioretention blends)",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Maryland",
+     "state": "MD",
+     "lat": 38.63,
+     "lng": -76.91,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "why_buy": "Sells bioretention specialty blends in the Chesapeake region, where a biochar-enhanced bioretention memo is in draft.",
+   "need_t_yr": null,
+   "source_url": "https://chaneyenterprises.com/article/Bioretention-Specialty-Blends",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "plaisted",
+   "name": "Plaisted Companies",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Elk River",
+     "state": "MN",
+     "lat": 45.3,
+     "lng": -93.57,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "why_buy": "Supplied filter sand for a Metropolitan Council biochar filter testbed.",
+   "need_t_yr": null,
+   "source_url": "https://rsc.org/suppdata/d4/ew/d4ew00390j/d4ew00390j1.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "City to confirm."
+  },
+  {
+   "id": "readsoils",
+   "name": "Read Custom Soils",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Massachusetts",
+     "state": "MA",
+     "lat": 42.16,
+     "lng": -71.2,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention",
+    "horticulture"
+   ],
+   "why_buy": "Exclusive New England distributor for Standard Biocarbon: proof that blenders take on biochar.",
+   "need_t_yr": null,
+   "source_url": "https://standardbiocarbon.squarespace.com/news-blog",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "kellogg",
+   "name": "Kellogg Garden Products",
+   "type": "blender",
+   "sites": [
+    {
+     "city": "Carson",
+     "state": "CA",
+     "lat": 33.83,
+     "lng": -118.28,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "horticulture"
+   ],
+   "why_buy": "Makes biochar-amended growing media.",
+   "need_t_yr": null,
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "organicmechanics",
+   "name": "Organic Mechanics Soil Company",
+   "type": "blender",
+   "website": "https://organicmechanicsoil.com/biochar-at-organic-mechanics/",
+   "sites": [
+    {
+     "city": "Modena",
+     "state": "PA",
+     "lat": 39.96,
+     "lng": -75.8,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "horticulture"
+   ],
+   "why_buy": "Peat-free potting soils with biochar.",
+   "need_t_yr": null,
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "ecogardens",
+   "name": "Ecogardens",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.9,
+     "lng": -87.65,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "green_roof",
+    "bioretention"
+   ],
+   "decision_maker": "Greg Raymond, President",
+   "why_buy": "Sees value in biofiltration and peat replacement, not roofs. Does not test incoming media; relies on the blender.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-greg-raymond.md",
+   "source_date": "2026-11-05",
+   "provenance": "interview",
+   "confidence": "high",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "davey",
+   "name": "Davey Tree Expert Company",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Kent",
+     "state": "OH",
+     "lat": 41.15,
+     "lng": -81.36,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "horticulture"
+   ],
+   "why_buy": "Uses biochar in soil and water care through arborists nationwide.",
+   "need_t_yr": null,
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "bartlett",
+   "name": "Bartlett Tree Experts",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Charlotte",
+     "state": "NC",
+     "lat": 35.23,
+     "lng": -80.84,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "horticulture"
+   ],
+   "why_buy": "Uses biochar-based media when servicing trees.",
+   "need_t_yr": null,
+   "source_url": "https://biochar-us.org/node/18",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "seg-foundries",
+   "name": "Chicagoland foundries (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.85,
+     "lng": -87.7,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "decision_maker": "EHS manager; SWPPP consultant specifies",
+   "why_buy": "Quarterly Al/Cu/Zn benchmarks; about 80% exceed (AFS, per team research).",
+   "need_t_yr": 40,
+   "source_url": "project:claude/finish-depot-placement-amc-model-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Part of an estimated 300–600 metal-handling sites. Count to verify in EPA ECHO by SIC code."
+  },
+  {
+   "id": "seg-galvanizers",
+   "name": "Chicagoland galvanizers and platers (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Cicero",
+     "state": "IL",
+     "lat": 41.85,
+     "lng": -87.75,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "decision_maker": "EHS manager",
+   "why_buy": "Zinc in runoff; per-site media spend about $5–15k/yr (Diamond Chrome APTsorb example).",
+   "need_t_yr": 40,
+   "source_url": "project:claude/phase1-integrator-capex-logistics-beachhead-pnl-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "seg-scrap",
+   "name": "Chicagoland scrap and auto recyclers (segment; e.g. LKQ, Sims)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.72,
+     "lng": -87.6,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "decision_maker": "Site/EHS manager",
+   "why_buy": "Metals and oils in runoff under industrial stormwater permits.",
+   "need_t_yr": 40,
+   "source_url": "project:claude/finish-depot-placement-amc-model-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "seg-fabricators",
+   "name": "Chicagoland metal fabricators (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Elk Grove Village",
+     "state": "IL",
+     "lat": 42,
+     "lng": -87.97,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "decision_maker": "Plant/EHS manager",
+   "why_buy": "Cu/Zn benchmarks; small sites buy compliance as a service.",
+   "need_t_yr": 30,
+   "source_url": "project:claude/phase1-integrator-capex-logistics-beachhead-pnl-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "mwrd",
+   "name": "Metropolitan Water Reclamation District of Greater Chicago",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.89,
+     "lng": -87.62,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "decision_maker": "Green infrastructure / biosolids program",
+   "why_buy": "Promotes amended bioretention soil media in green infrastructure projects.",
+   "need_t_yr": null,
+   "source_url": "https://www.mwrd.org/sites/default/files/2026-03/Biosolids_Newsletter_Spring_2026.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "MWRD promotes its own EQ biosolids in bioretention media: a possible partner or a competing amendment."
+  },
+  {
+   "id": "seg-ms4",
+   "name": "Chicago-area MS4 communities (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Naperville",
+     "state": "IL",
+     "lat": 41.75,
+     "lng": -88.15,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "decision_maker": "Stormwater engineer; civil site engineers specify",
+   "why_buy": "Impervious surfaces in MS4 areas must meet code; bioretention media is specified per project.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-synthesis-nov5.md",
+   "source_date": "2026-11-05",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "dekalb-dc",
+   "name": "DeKalb data center campuses (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "DeKalb",
+     "state": "IL",
+     "lat": 41.93,
+     "lng": -88.75,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "bioretention"
+   ],
+   "why_buy": "One-time bioretention media per campus.",
+   "need_t_yr": 500,
+   "source_url": "repo:lib/data.js@v0.1",
+   "source_date": "2026-11-05",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "holcim",
+   "name": "Holcim US",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.88,
+     "lng": -87.63,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "concrete"
+   ],
+   "decision_maker": "Sustainability / product innovation",
+   "why_buy": "Runs biochar concrete pilots in several countries.",
+   "need_t_yr": null,
+   "source_url": "project:claude/biochar-concrete-steel-markets.md",
+   "source_date": "2026-10-01",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "US HQ city to confirm."
+  },
+  {
+   "id": "cemex",
+   "name": "CEMEX US",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Houston",
+     "state": "TX",
+     "lat": 29.76,
+     "lng": -95.37,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "concrete"
+   ],
+   "why_buy": "Entering biochar lines per market reports (team research).",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "seg-readymix",
+   "name": "Chicago ready-mix concrete producers (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.8,
+     "lng": -87.75,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "concrete"
+   ],
+   "decision_maker": "QC manager / mix designer",
+   "why_buy": "Dose differs per batch; buyers need consistent, certified material.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-synthesis-nov5.md",
+   "source_date": "2026-11-05",
+   "provenance": "interview",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "alterbiota",
+   "name": "alterBiota (deltaC)",
+   "type": "product_maker",
+   "sites": [
+    {
+     "city": "Location not recorded",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "concrete"
+   ],
+   "decision_maker": "Mark Masotti, CEO",
+   "why_buy": "Makes a biochar-based concrete admixture.",
+   "need_t_yr": null,
+   "source_url": "project:claude/segment-contacts-applications.md",
+   "source_date": "2026-10-15",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "verde",
+   "name": "Verde Resources",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "St. Louis",
+     "state": "MO",
+     "lat": 38.63,
+     "lng": -90.2,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "asphalt"
+   ],
+   "why_buy": "Biochar asphalt with Ergon; supply currently locked to Biochar Solutions.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "ergon",
+   "name": "Ergon Asphalt & Emulsions",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Jackson",
+     "state": "MS",
+     "lat": 32.3,
+     "lng": -90.18,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "asphalt"
+   ],
+   "why_buy": "10-year agreement with Verde (Jul 2026) for cold paving with biochar.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "seg-binder",
+   "name": "Illinois asphalt binder suppliers and modifier companies (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.7,
+     "lng": -87.7,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "asphalt"
+   ],
+   "decision_maker": "Technical manager at binder supplier",
+   "why_buy": "More RAP means stiffer binder and a growing market for softeners; suppliers carry the burden of proof for IDOT qualified lists.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-idot-materials-engineer-nov12.md",
+   "source_date": "2026-11-12",
+   "provenance": "interview",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "idot",
+   "name": "Illinois Department of Transportation (gatekeeper)",
+   "type": "gatekeeper",
+   "sites": [
+    {
+     "city": "Springfield",
+     "state": "IL",
+     "lat": 39.78,
+     "lng": -89.65,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "asphalt",
+    "concrete"
+   ],
+   "why_buy": "Not a buyer. Qualified product lists are the route to market; change is slow and research-led.",
+   "need_t_yr": null,
+   "source_url": "project:claude/interview-idot-materials-engineer-nov12.md",
+   "source_date": "2026-11-12",
+   "provenance": "interview",
+   "confidence": "high",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "aft-il",
+   "name": "American Farmland Trust, Illinois biochar trials",
+   "type": "buyer",
+   "sites": [
+    {
+     "city": "Illinois",
+     "state": "IL",
+     "lat": 40.1,
+     "lng": -88.9,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "soil_ag"
+   ],
+   "decision_maker": "Midwest Soil Health Specialist",
+   "why_buy": "Runs corn-soy demonstration trials and notes biochar availability is a limit in Illinois.",
+   "need_t_yr": null,
+   "source_url": "https://farmland.org/files/illinois-biochar.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing"
+  },
+  {
+   "id": "seg-peat",
+   "name": "Midwest potting-mix and greenhouse growers (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Chicago",
+     "state": "IL",
+     "lat": 41.6,
+     "lng": -88.1,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "horticulture"
+   ],
+   "why_buy": "Peat shortage; price ceiling about $300–400/t.",
+   "need_t_yr": null,
+   "source_url": "project:claude/finish-depot-placement-amc-model-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  },
+  {
+   "id": "seg-eaf",
+   "name": "EAF steelmakers (segment)",
+   "type": "segment",
+   "sites": [
+    {
+     "city": "Columbus",
+     "state": "MS",
+     "lat": 33.45,
+     "lng": -88.5,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "unknown",
+   "certifications": [],
+   "products": [],
+   "applications": [
+    "metallurgical"
+   ],
+   "why_buy": "Use 100–250k t/yr of biocarbon each; need densified, high-fixed-carbon, low-ash product.",
+   "need_t_yr": null,
+   "source_url": "project:claude/bulk-biochar-buyers-oct28.md",
+   "source_date": "2026-10-28",
+   "provenance": "estimate",
+   "confidence": "medium",
+   "review_depth": "project_research"
+  }
+ ],
+ "partners": [
+  {
+   "id": "controllabs",
+   "name": "Control Laboratories",
+   "type": "lab",
+   "website": "https://www.biocharlab.com",
+   "sites": [
+    {
+     "city": "Watsonville",
+     "state": "CA",
+     "lat": 36.93,
+     "lng": -121.79,
+     "coord_precision": "site"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-international.org/testing-laboratories-for-ibi-biochar-certification",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "high",
+   "review_depth": "listing",
+   "notes": "Biochar analysis lab used by many US producers; listed by IBI for certification testing (Test Category A). 42 Hangar Way."
+  },
+  {
+   "id": "als",
+   "name": "ALS Group USA",
+   "type": "lab",
+   "sites": [
+    {
+     "city": "Houston",
+     "state": "TX",
+     "lat": 29.67,
+     "lng": -95.57,
+     "coord_precision": "site"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-us.org/labs",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Listed among known biochar analysis laboratories (USBI labs page)."
+  },
+  {
+   "id": "bel",
+   "name": "Biomass Energy Lab (Timber Products Inspection)",
+   "type": "lab",
+   "website": "http://www.biomassenergylab.com/",
+   "sites": [
+    {
+     "city": "Conyers",
+     "state": "GA",
+     "lat": 33.67,
+     "lng": -84.02,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-us.org/sites/default/files/presentations/USBI-NABC24-6_PANEL_Specifications_and_Laboratory_Analysis-Lima-Brewer-Wiberg-Gottumukkala.pdf",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "ISO-accredited testing body serving wood products and biomass; presented on biochar specifications and lab analysis at the 2024 USBI conference."
+  },
+  {
+   "id": "celignis",
+   "name": "Celignis Analytical",
+   "type": "lab",
+   "sites": [
+    {
+     "city": "Limerick",
+     "state": "Ireland",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://celignis.com/biochar-analysis.php",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Runs EBC/IBI analytical methods, surface area and porosity packages. Overseas: use for specialist tests."
+  },
+  {
+   "id": "eurofins",
+   "name": "Eurofins Umwelt Ost",
+   "type": "lab",
+   "sites": [
+    {
+     "city": "Freiberg",
+     "state": "Germany",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://dev.european-biochar.org/en/laboratories",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "EBC-accredited laboratory (one of two)."
+  },
+  {
+   "id": "ruhrlab",
+   "name": "Ruhr Lab",
+   "type": "lab",
+   "sites": [
+    {
+     "city": "Gelsenkirchen",
+     "state": "Germany",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://dev.european-biochar.org/en/laboratories",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "EBC-accredited laboratory (one of two)."
+  },
+  {
+   "id": "scytek",
+   "name": "Scytek Laboratories",
+   "type": "lab",
+   "sites": [
+    {
+     "city": "Utah",
+     "state": "UT",
+     "lat": 41.74,
+     "lng": -111.83,
+     "coord_precision": "state"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-us.org/directory",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "low",
+   "review_depth": "listing",
+   "notes": "Listed in the USBI directory under Utah."
+  },
+  {
+   "id": "puro",
+   "name": "Puro.earth",
+   "type": "registry",
+   "website": "https://puro.earth/",
+   "sites": [
+    {
+     "city": "Helsinki",
+     "state": "Finland",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/spent-media-burial-credit-share-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Registry (CORCs). Soil and durable end uses such as concrete."
+  },
+  {
+   "id": "isometric",
+   "name": "Isometric",
+   "type": "registry",
+   "sites": [
+    {
+     "city": "London",
+     "state": "UK",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/spent-media-burial-credit-share-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Registry. Names soil and landfill end uses."
+  },
+  {
+   "id": "car",
+   "name": "Climate Action Reserve (US Biochar Protocol)",
+   "type": "registry",
+   "sites": [
+    {
+     "city": "Los Angeles",
+     "state": "CA",
+     "lat": 34.05,
+     "lng": -118.25,
+     "coord_precision": "city"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/spent-media-burial-credit-share-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Eligible end-use list (Mar 2024) includes stormwater management and landfill disposal: the clearest path for filter-then-burial."
+  },
+  {
+   "id": "csi",
+   "name": "Carbon Standards International (EBC, World Biochar Certificate)",
+   "type": "standards",
+   "sites": [
+    {
+     "city": "Switzerland",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-international.org/biochar-testing-laboratories-for-certification/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Runs EBC and the World Biochar Certificate that replaced IBI's own certification program."
+  },
+  {
+   "id": "ibi",
+   "name": "International Biochar Initiative",
+   "type": "standards",
+   "sites": [
+    {
+     "city": "USA",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar-international.org/biochar-testing-laboratories-for-certification/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "IBI Biochar Standards (H:Corg, metals ranges). Certification now runs through CSI."
+  },
+  {
+   "id": "abi",
+   "name": "American Biochar Institute (formerly USBI)",
+   "type": "standards",
+   "website": "https://biochar.org",
+   "sites": [
+    {
+     "city": "USA",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "https://biochar.org/industry-directory/",
+   "source_date": "2026-11-16",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "listing",
+   "notes": "Industry association and directory; stormwater BMP guidance; ANSI S668 analysis methods referenced in its guidance."
+  },
+  {
+   "id": "carbonfuture",
+   "name": "Carbonfuture",
+   "type": "software",
+   "sites": [
+    {
+     "city": "Germany",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/spent-media-burial-credit-share-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "dMRV and credit tracking platform used by producers."
+  },
+  {
+   "id": "mangrove",
+   "name": "Mangrove Systems",
+   "type": "software",
+   "sites": [
+    {
+     "city": "USA",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/spent-media-burial-credit-share-nov2.md",
+   "source_date": "2026-11-02",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "dMRV software for carbon removal projects."
+  },
+  {
+   "id": "supercritical",
+   "name": "Supercritical",
+   "type": "software",
+   "sites": [
+    {
+     "city": "UK",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/atlas-assessment-platform-market-nov9.md",
+   "source_date": "2026-11-09",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "Corporate CDR marketplace (~35% of corporate purchases). Do not compete; hand off credit sales."
+  },
+  {
+   "id": "enchar",
+   "name": "Enchar",
+   "type": "competitor",
+   "sites": [
+    {
+     "city": "Zurich",
+     "state": "Switzerland",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/us-enchar-plan-valuation-nov9.md",
+   "source_date": "2026-11-09",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "EU B2B biochar market maker with a characterization database; commission-based; ~3 employees after 4 years."
+  },
+  {
+   "id": "greenchar",
+   "name": "GreenChar",
+   "type": "competitor",
+   "sites": [
+    {
+     "city": "Singapore",
+     "state": "",
+     "lat": null,
+     "lng": null,
+     "coord_precision": "none"
+    }
+   ],
+   "status": "operating",
+   "certifications": [],
+   "products": [],
+   "source_url": "project:claude/atlas-assessment-platform-market-nov9.md",
+   "source_date": "2026-11-09",
+   "provenance": "published",
+   "confidence": "medium",
+   "review_depth": "project_research",
+   "notes": "RFQ marketplace, global and industrial."
+  }
+ ],
+ "partnerGaps": [
+  {
+   "need": "Illinois special-waste hauler (spent media)",
+   "status": "to identify",
+   "how": "IEPA permitted hauler list; ask landfill"
+  },
+  {
+   "need": "Landfill or permanent sink accepting spent filter media near Chicago",
+   "status": "to identify",
+   "how": "Call 2–3 Subtitle D landfills; tip fee estimate $57–93/t (team research)"
+  },
+  {
+   "need": "Toll finishing yard near Chicago (screen, crush, dry, bag)",
+   "status": "to identify",
+   "how": "Mulch/compost yards and mineral processors within 50 miles"
+  },
+  {
+   "need": "Bulk-bag (supersack) supplier",
+   "status": "to identify",
+   "how": "Regional packaging distributors"
+  },
+  {
+   "need": "Freight broker with walking-floor and dry-van capacity",
+   "status": "to identify",
+   "how": "2–3 broker quotes on a real lane"
+  },
+  {
+   "need": "US ISO 17025 lab for TCLP and total metals on spent media",
+   "status": "to identify",
+   "how": "Illinois-accredited environmental labs"
+  }
+ ],
+ "demoOrgs": [
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-prairie",
+   "name": "Prairie Carbon Works (DEMO producer)",
+   "type": "producer",
+   "status": "operating",
+   "feedstock": "Urban wood waste",
+   "feedClass": "wood",
+   "capacity_t_yr": 900,
+   "sites": [
+    {
+     "city": "Rockford",
+     "state": "IL",
+     "lat": 42.27,
+     "lng": -89.09,
+     "coord_precision": "city"
+    }
+   ],
+   "sells_credits": true,
+   "notes": "Fictional producer for the producer-portal demo."
+  },
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-pools",
+   "name": "Clearwater Natural Pools (DEMO buyer)",
+   "type": "buyer",
+   "status": "operating",
+   "applications": [
+    "natural_pools"
+   ],
+   "sites": [
+    {
+     "city": "Madison",
+     "state": "WI",
+     "lat": 43.07,
+     "lng": -89.4,
+     "coord_precision": "city"
+    }
+   ]
+  },
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-blender",
+   "name": "Fox Valley Engineered Soils (DEMO buyer)",
+   "type": "blender",
+   "status": "operating",
+   "applications": [
+    "bioretention"
+   ],
+   "sites": [
+    {
+     "city": "Aurora",
+     "state": "IL",
+     "lat": 41.76,
+     "lng": -88.32,
+     "coord_precision": "city"
+    }
+   ]
+  },
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-galv",
+   "name": "Lakeshore Galvanizing (DEMO buyer)",
+   "type": "buyer",
+   "status": "operating",
+   "applications": [
+    "industrial_stormwater"
+   ],
+   "sites": [
+    {
+     "city": "Cicero",
+     "state": "IL",
+     "lat": 41.845,
+     "lng": -87.76,
+     "coord_precision": "city"
+    }
+   ]
+  },
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-readymix",
+   "name": "Prairie State Ready-Mix (DEMO buyer)",
+   "type": "buyer",
+   "status": "operating",
+   "applications": [
+    "concrete"
+   ],
+   "sites": [
+    {
+     "city": "Joliet",
+     "state": "IL",
+     "lat": 41.53,
+     "lng": -88.08,
+     "coord_precision": "city"
+    }
+   ]
+  },
+  {
+   "source_url": "demo:seed",
+   "source_date": "2026-11-16",
+   "provenance": "demo",
+   "confidence": "high",
+   "review_depth": "listing",
+   "certifications": [],
+   "products": [],
+   "id": "demo-filter",
+   "name": "Great Lakes Filter Media (DEMO buyer)",
+   "type": "product_maker",
+   "status": "operating",
+   "applications": [
+    "stormwater_filtration"
+   ],
+   "sites": [
+    {
+     "city": "Milwaukee",
+     "state": "WI",
+     "lat": 43.04,
+     "lng": -87.91,
+     "coord_precision": "city"
+    }
+   ]
+  }
+ ]
+}

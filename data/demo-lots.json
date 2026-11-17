@@ -1,0 +1,5261 @@
+[
+ {
+  "id": "LOT-MTZ-01",
+  "demo": true,
+  "org_id": "metzler",
+  "site_index": 0,
+  "name": "Stormwater media, coarse",
+  "grade_code": "CL-FC",
+  "feedstock": "Forestry wood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-09-03",
+  "quantity_t": 18,
+  "price_ask_per_t": 980,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 252,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 10,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 10,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 87.2,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 82,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.42,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 8.4,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 1.5,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 11,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 272,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 217,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 4.23,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 1.17,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 59.34,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 13,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 11.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.27,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 31.48,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 70.8,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 2.5,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 150,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 0.3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 1.5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 4
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 8
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 12
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 45
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bag"
+  ],
+  "lead_time_days": 11,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-09-03",
+  "longevity": {
+   "pollutant": "Zinc",
+   "bed_volumes": 2400,
+   "note": "DEMO column result at pH 7; not a real test"
+  },
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-09-03",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-09-03",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-BLC-01",
+  "demo": true,
+  "org_id": "biologicalcarbon",
+  "site_index": 0,
+  "name": "Custom filter char, 2–10 mm",
+  "grade_code": "CL-FC",
+  "feedstock": "Douglas fir",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-10-07",
+  "quantity_t": 12,
+  "price_ask_per_t": 1050,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 270,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 15,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 8.3,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 83.9,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 77,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.31,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 7.7,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.4,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 19,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 325,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 171,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 5.96,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.29,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 11.66,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 77.22,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 6.18,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.06,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 7.19,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 148.85,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-10-07",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 0.3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 1.5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 4
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 8
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 12
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 45
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack"
+  ],
+  "lead_time_days": 16,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-10-07",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-10-07",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-10-07",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-GLN-01",
+  "demo": true,
+  "org_id": "glanris",
+  "site_index": 0,
+  "name": "Rice-hull granular media",
+  "grade_code": "CL-FM",
+  "feedstock": "Rice hulls",
+  "feedClass": "ag",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-09-03",
+  "quantity_t": 40,
+  "price_ask_per_t": 890,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 185,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 13,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 36.7,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 60.8,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 54,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.43,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 10.4,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 2.8,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 31,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 197,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 139,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 4.92,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.69,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 49.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 15.54,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 37.77,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.09,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 10.01,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 183.94,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 3.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 233,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-09-03",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 1
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 15
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 66
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 94
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bag"
+  ],
+  "lead_time_days": 13,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-09-03",
+  "longevity": {
+   "pollutant": "Copper",
+   "bed_volumes": 1500,
+   "note": "DEMO column result; not a real test"
+  },
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-09-03",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-09-03",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-ABC-01",
+  "demo": true,
+  "org_id": "amerbiochar",
+  "site_index": 0,
+  "name": "Unscreened kiln char",
+  "feedstock": "Hardwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-08-18",
+  "quantity_t": 26,
+  "price_ask_per_t": 420,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 271,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 11,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 8.8,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 72.4,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 68,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.36,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 8.7,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.4,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 15,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 268,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 169,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 1.13,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.19,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 44.51,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 51.11,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 23.94,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.24,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 20.96,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 207.9,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-18",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 6
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 18
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 60
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 90
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 14,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-08-18",
+  "longevity": null,
+  "certifications": [],
+  "notes": "Wide size range: screen at the hub for coarse or medium grades.",
+  "custody": [
+   {
+    "date": "2026-08-18",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-18",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-ABC-02",
+  "demo": true,
+  "org_id": "amerbiochar",
+  "site_index": 0,
+  "name": "Bioretention-size char",
+  "grade_code": "CL-BR",
+  "feedstock": "Hardwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-06-05",
+  "quantity_t": 24,
+  "price_ask_per_t": 465,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 174,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 12,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 4.4,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 87.9,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 80,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.32,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 7.9,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 0.7,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 29,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 463,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 235,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 1.29,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.91,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 40.85,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 78.59,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 5.94,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.02,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 19.42,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 243.07,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 4,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 103,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-05",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 14
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 48
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 88
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 93
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 15,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-06-05",
+  "longevity": null,
+  "certifications": [
+   "IBI (DEMO)"
+  ],
+  "custody": [
+   {
+    "date": "2026-06-05",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-06-05",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-TCH-01",
+  "demo": true,
+  "org_id": "terrachar",
+  "site_index": 0,
+  "name": "High-carbon lump char",
+  "feedstock": "Oak and hickory",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-09-27",
+  "quantity_t": 60,
+  "price_ask_per_t": 520,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 153,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 12,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 4,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 83.6,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 90,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.29,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 9.6,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 1.4,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 38,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 291,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 236,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 5.26,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.59,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 51.73,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 15.66,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 28.94,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.29,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 14.72,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 191.68,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-27",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 2
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 7
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 14
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 24
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 29
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 95
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 12,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-09-27",
+  "longevity": null,
+  "certifications": [],
+  "notes": "High fixed carbon. Unrinsed: fines must be screened out for filter use.",
+  "custody": [
+   {
+    "date": "2026-09-27",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-09-27",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-TCH-02",
+  "demo": true,
+  "org_id": "terrachar",
+  "site_index": 0,
+  "name": "Soil-grade char",
+  "grade_code": "CL-AG",
+  "feedstock": "Mixed hardwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-10-21",
+  "quantity_t": 80,
+  "price_ask_per_t": 360,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 242,
+    "unit": "kg/m³",
+    "verification": "self_reported"
+   },
+   "moisture": {
+    "value": 13,
+    "unit": "% wt",
+    "verification": "self_reported"
+   },
+   "ash": {
+    "value": 11.7,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "c_org": {
+    "value": 78.6,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "fixed_carbon": {
+    "value": 71,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "h_corg": {
+    "value": 0.47,
+    "unit": "molar",
+    "verification": "self_reported"
+   },
+   "ph": {
+    "value": 8.7,
+    "unit": "",
+    "verification": "self_reported"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 7,
+  "status": "available",
+  "verification": "self_reported",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-10-21",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   }
+  ]
+ },
+ {
+  "id": "LOT-GQ-01",
+  "demo": true,
+  "org_id": "greenquest",
+  "site_index": 0,
+  "name": "Screened char, 0.4–2.4 mm",
+  "grade_code": "CL-BR",
+  "feedstock": "Wood chips",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-07-15",
+  "quantity_t": 20,
+  "price_ask_per_t": 480,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 176,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 13,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 5,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 76.2,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 70,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.47,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 7.6,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.2,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 25,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 295,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 194,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 7.49,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.83,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 28.14,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 34.69,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 34.08,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.14,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 7.26,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 47.08,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-15",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 14
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 48
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 88
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 93
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bulk_ftl"
+  ],
+  "lead_time_days": 12,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-07-15",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-07-15",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-07-15",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-BWS-01",
+  "demo": true,
+  "org_id": "blackwood",
+  "site_index": 0,
+  "name": "Mobile carbonizer char, unscreened",
+  "feedstock": "Land-clearing wood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-07-25",
+  "quantity_t": 35,
+  "price_ask_per_t": 310,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 257,
+    "unit": "kg/m³",
+    "verification": "self_reported"
+   },
+   "moisture": {
+    "value": 8,
+    "unit": "% wt",
+    "verification": "self_reported"
+   },
+   "ash": {
+    "value": 4.8,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "c_org": {
+    "value": 84.2,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "fixed_carbon": {
+    "value": 78,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "h_corg": {
+    "value": 0.53,
+    "unit": "molar",
+    "verification": "self_reported"
+   },
+   "ph": {
+    "value": 9.2,
+    "unit": "",
+    "verification": "self_reported"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 6
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 18
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 60
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 90
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 7,
+  "status": "available",
+  "verification": "self_reported",
+  "longevity": null,
+  "certifications": [],
+  "notes": "No COA. Sample and hub test required before sale.",
+  "custody": [
+   {
+    "date": "2026-07-25",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   }
+  ]
+ },
+ {
+  "id": "LOT-ARTI-01",
+  "demo": true,
+  "org_id": "arti",
+  "site_index": 0,
+  "name": "Fine char",
+  "grade_code": "CL-AG",
+  "feedstock": "Wood chips",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2024-03-12",
+  "quantity_t": 45,
+  "price_ask_per_t": 380,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 152,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 11,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 4.1,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 73.7,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 68,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.26,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 9.7,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.7,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 24,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 327,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 188,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 5.05,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.51,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 19.73,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 32.44,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 39.61,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.07,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 9.7,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 256.38,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2024-03-12",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 11,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2024-03-12",
+  "longevity": null,
+  "certifications": [],
+  "notes": "COA is more than two years old.",
+  "custody": [
+   {
+    "date": "2024-03-12",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2024-03-12",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-LIF-01",
+  "demo": true,
+  "org_id": "liferaft",
+  "site_index": 0,
+  "name": "Ag-residue char",
+  "grade_code": "CL-AG",
+  "feedstock": "Corn stover",
+  "feedClass": "ag",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-08-22",
+  "quantity_t": 120,
+  "price_ask_per_t": 300,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 206,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 11,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 41.6,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 46.4,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 42,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.55,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 9.7,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 2.4,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 42,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 131,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 251,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 4.12,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.22,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 5.67,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 85.58,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 22.96,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.06,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 9.53,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 203.46,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-22",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 14,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-08-22",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-08-22",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-22",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-WKF-01",
+  "demo": true,
+  "org_id": "wakefield",
+  "site_index": 0,
+  "name": "Premium-type char, <2 mm",
+  "grade_code": "CL-HP",
+  "feedstock": "Pine",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-08-25",
+  "quantity_t": 200,
+  "price_ask_per_t": 410,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 210,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 14,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 5.7,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 78.8,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 73,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.37,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 8.5,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 0.3,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 41,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 359,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 182,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 2.49,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.33,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 47.36,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 9.69,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 8.52,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 3.38,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 53.24,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 1.4,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 468,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-25",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bulk_ftl"
+  ],
+  "lead_time_days": 10,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-08-25",
+  "longevity": null,
+  "certifications": [
+   "OMRI (DEMO)"
+  ],
+  "custody": [
+   {
+    "date": "2026-08-25",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-25",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-WKF-02",
+  "demo": true,
+  "org_id": "wakefield",
+  "site_index": 0,
+  "name": "Micronized carbon, <50 µm",
+  "grade_code": "CL-CF",
+  "feedstock": "Pine",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-06-15",
+  "quantity_t": 30,
+  "price_ask_per_t": 690,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 246,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 3,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 8.4,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 80.2,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 75,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.28,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 10,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 0.3,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 18,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 303,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 277,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 6.69,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.53,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 38.5,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 19.8,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 11.41,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.07,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 17.97,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 142.22,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 3,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 371,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-15",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack"
+  ],
+  "lead_time_days": 15,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-06-15",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-06-15",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-06-15",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-PAC-01",
+  "demo": true,
+  "org_id": "pacific",
+  "site_index": 1,
+  "name": "Sawmill-residue char",
+  "grade_code": "CL-AG",
+  "feedstock": "Sawmill residues",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-10-20",
+  "quantity_t": 300,
+  "price_ask_per_t": 340,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 170,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 15,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 10.6,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 78.8,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 74,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.51,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 8.3,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 1.5,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 28,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 255,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 248,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 5.18,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.77,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 5.44,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 30.77,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 2.27,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.28,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 21.94,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 113.8,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 4.9,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 464,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-20",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 12,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-10-20",
+  "longevity": null,
+  "certifications": [
+   "EBC (DEMO)"
+  ],
+  "custody": [
+   {
+    "date": "2026-10-20",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-10-20",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-OBS-01",
+  "demo": true,
+  "org_id": "obs",
+  "site_index": 0,
+  "name": "Screened char, 1–4 mm",
+  "grade_code": "CL-FM",
+  "feedstock": "Forest residues",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~650 °C (DEMO)",
+  "production_date": "2026-07-23",
+  "quantity_t": 90,
+  "price_ask_per_t": 560,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 263,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 9,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 9.9,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 85.8,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 78,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.55,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 9,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 0.8,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 42,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 479,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 282,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 1.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.25,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 30.61,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 72.83,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 2.17,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.11,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 6.15,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 222.27,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 1.9,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 423,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-07-23",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 1
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 15
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 66
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 94
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bulk_ftl"
+  ],
+  "lead_time_days": 7,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-07-23",
+  "longevity": null,
+  "certifications": [
+   "Puro (DEMO)"
+  ],
+  "custody": [
+   {
+    "date": "2026-07-23",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-07-23",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-OBS-02",
+  "demo": true,
+  "org_id": "obs",
+  "site_index": 0,
+  "name": "Coarse char, 2–10 mm",
+  "grade_code": "CL-FC",
+  "feedstock": "Forest residues",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-06-03",
+  "quantity_t": 40,
+  "price_ask_per_t": 640,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 265,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 13,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 8.2,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 85.5,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 81,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.38,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 9.5,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 1.4,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 24,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 251,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 276,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 7.77,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.17,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 24.03,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 28.44,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 8.3,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.3,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 19.95,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 177.61,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 3.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 120,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-06-03",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 0.3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 1.5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 4
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 8
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 12
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 45
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bulk_ftl"
+  ],
+  "lead_time_days": 16,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-06-03",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-06-03",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-06-03",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-SUP-01",
+  "demo": true,
+  "org_id": "supreme",
+  "site_index": 0,
+  "name": "Stormwater-mix type char",
+  "grade_code": "CL-BR",
+  "feedstock": "Softwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-08-04",
+  "quantity_t": 55,
+  "price_ask_per_t": 590,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 183,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 10,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 11,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 78,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 73,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.35,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 8.5,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.7,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 29,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 384,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 286,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 6.7,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.49,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 29.37,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 72.64,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 32.88,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.27,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 8.45,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 244.82,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-04",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 14
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 48
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 88
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 93
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bag"
+  ],
+  "lead_time_days": 6,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-08-04",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-08-04",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-04",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-CSP-01",
+  "demo": true,
+  "org_id": "coldsteppe",
+  "site_index": 0,
+  "name": "Rice-hull char",
+  "grade_code": "CL-AG",
+  "feedstock": "Rice hulls",
+  "feedClass": "ag",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-07-18",
+  "quantity_t": 400,
+  "price_ask_per_t": 290,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 260,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 16,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 30.2,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 55.2,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 48,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.56,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 10.3,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 2.5,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 42,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 126,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 235,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 5.77,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.35,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 54.15,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 73.67,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 21.31,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.05,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 11.08,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 231.47,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 6,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-07-18",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-07-18",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-07-18",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-STD-01",
+  "demo": true,
+  "org_id": "standard",
+  "site_index": 0,
+  "name": "Spruce-fir char, fine",
+  "feedstock": "Spruce and fir",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-10-06",
+  "quantity_t": 25,
+  "price_ask_per_t": 520,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 254,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 15,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 7.4,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 75.4,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 70,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.27,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 8.7,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 1,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 22,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 283,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 223,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 6.44,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.3,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 33.89,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 45.29,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 25.83,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.26,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 9.04,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 34.02,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 4.2,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 81,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-10-06",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack"
+  ],
+  "lead_time_days": 16,
+  "status": "available",
+  "verification": "third_party",
+  "coa_date": "2026-10-06",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-10-06",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-10-06",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-BCN-01",
+  "demo": true,
+  "org_id": "biocharnow",
+  "site_index": 0,
+  "name": "Chunk char, unscreened",
+  "feedstock": "Beetle-kill pine",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~650 °C (DEMO)",
+  "production_date": "2026-06-17",
+  "quantity_t": 70,
+  "price_ask_per_t": 450,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 173,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 9,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 8.1,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 86.2,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 82,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.47,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 8,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 1.3,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 23,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 418,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 313,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 1.75,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.85,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 45.12,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 8.53,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 5.79,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.15,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 7.47,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 147.26,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-06-17",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 2
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 7
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 14
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 24
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 29
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 95
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bulk_ftl"
+  ],
+  "lead_time_days": 11,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-06-17",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-06-17",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-06-17",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-SWV-01",
+  "demo": true,
+  "org_id": "swva",
+  "site_index": 0,
+  "name": "Compost-blend char",
+  "grade_code": "CL-AG",
+  "feedstock": "Virginia hardwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-08-10",
+  "quantity_t": 30,
+  "price_ask_per_t": 400,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 257,
+    "unit": "kg/m³",
+    "verification": "self_reported"
+   },
+   "moisture": {
+    "value": 12,
+    "unit": "% wt",
+    "verification": "self_reported"
+   },
+   "ash": {
+    "value": 6.4,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "c_org": {
+    "value": 72.9,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "fixed_carbon": {
+    "value": 66,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "h_corg": {
+    "value": 0.35,
+    "unit": "molar",
+    "verification": "self_reported"
+   },
+   "ph": {
+    "value": 8.8,
+    "unit": "",
+    "verification": "self_reported"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 6
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 18
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 60
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 90
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 10,
+  "status": "available",
+  "verification": "self_reported",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-08-10",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   }
+  ]
+ },
+ {
+  "id": "LOT-GSB-01",
+  "demo": true,
+  "org_id": "greenstate",
+  "site_index": 0,
+  "name": "Phosphorus-filter char",
+  "grade_code": "CL-FM",
+  "feedstock": "Vermont hardwood",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-09-21",
+  "quantity_t": 8,
+  "price_ask_per_t": 940,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 205,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 16,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 8,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 72.2,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 64,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.25,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 9.8,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.6,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 27,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 413,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 199,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 2.52,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 0.46,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 56.65,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 43.42,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 7.21,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.09,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 31.44,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 192.26,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-09-21",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 1
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 15
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 66
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 94
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack",
+   "bag"
+  ],
+  "lead_time_days": 7,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-09-21",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-09-21",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-09-21",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-PCW-01",
+  "demo": true,
+  "org_id": "demo-prairie",
+  "site_index": 0,
+  "name": "Oak char, unscreened",
+  "feedstock": "Urban oak and ash",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "production_date": "2026-08-15",
+  "quantity_t": 50,
+  "price_ask_per_t": 400,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 211,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 18,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 10.3,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 78,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 72,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.45,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 8.2,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.3,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 42,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 312,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 264,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 3.33,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 1.16,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 58.63,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 66.78,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 28.55,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.17,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 32.05,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 227.38,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-08-15",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 6
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 18
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 60
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 90
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 9,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-08-15",
+  "longevity": null,
+  "certifications": [],
+  "custody": [
+   {
+    "date": "2026-08-15",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-15",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-PCW-02",
+  "demo": true,
+  "org_id": "demo-prairie",
+  "site_index": 0,
+  "name": "Coarse screened char",
+  "grade_code": "CL-FC",
+  "feedstock": "Urban oak and ash",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-07-22",
+  "quantity_t": 6,
+  "price_ask_per_t": 900,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 164,
+    "unit": "kg/m³",
+    "verification": "self_reported"
+   },
+   "moisture": {
+    "value": 13,
+    "unit": "% wt",
+    "verification": "self_reported"
+   },
+   "ash": {
+    "value": 12,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "c_org": {
+    "value": 73.1,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "fixed_carbon": {
+    "value": 66,
+    "unit": "% dry",
+    "verification": "self_reported"
+   },
+   "h_corg": {
+    "value": 0.47,
+    "unit": "molar",
+    "verification": "self_reported"
+   },
+   "ph": {
+    "value": 8.8,
+    "unit": "",
+    "verification": "self_reported"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 0.3
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 1.5
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 4
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 8
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 12
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 45
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "supersack"
+  ],
+  "lead_time_days": 13,
+  "status": "available",
+  "verification": "self_reported",
+  "longevity": null,
+  "certifications": [],
+  "notes": "Self-reported only: needs a COA before it can be sold as filtration grade.",
+  "custody": [
+   {
+    "date": "2026-07-22",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   }
+  ]
+ },
+ {
+  "id": "LOT-PCW-03",
+  "demo": true,
+  "org_id": "demo-prairie",
+  "site_index": 0,
+  "name": "Char from reclaimed timber (FAILS metals)",
+  "feedstock": "Reclaimed painted timber",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
+  "production_date": "2026-08-26",
+  "quantity_t": 15,
+  "price_ask_per_t": 250,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 197,
+    "unit": "kg/m³",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "moisture": {
+    "value": 14,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "ash": {
+    "value": 7.3,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "c_org": {
+    "value": 83.3,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "fixed_carbon": {
+    "value": 79,
+    "unit": "% dry",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "h_corg": {
+    "value": 0.46,
+    "unit": "molar",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "ph": {
+    "value": 8.2,
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "ec": {
+    "value": 0.7,
+    "unit": "dS/m",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "cec": {
+    "value": 33,
+    "unit": "cmol/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "surface_area": {
+    "value": 439,
+    "unit": "m²/g",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "whc": {
+    "value": 191,
+    "unit": "% wt",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_As": {
+    "value": 1.16,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Cd": {
+    "value": 0.41,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Cr": {
+    "value": 8.46,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Cu": {
+    "value": 71.22,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Pb": {
+    "value": 410,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Hg": {
+    "value": 0.09,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Ni": {
+    "value": 9.67,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "metal_Zn": {
+    "value": 128.84,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "pah16": {
+    "value": 2.8,
+    "unit": "mg/kg",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "self_heating": {
+    "value": "Negative (not self-heating)",
+    "unit": "",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   },
+   "ksat": {
+    "value": 475,
+    "unit": "cm/h",
+    "lab": "Control Laboratories (DEMO report)",
+    "date": "2026-08-26",
+    "verification": "third_party"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 6
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 18
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 55
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 60
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 78
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 90
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 97
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl"
+  ],
+  "lead_time_days": 6,
+  "status": "quarantine",
+  "verification": "third_party",
+  "coa_date": "2026-08-26",
+  "longevity": null,
+  "certifications": [],
+  "notes": "Lead above the IBI maximum. Quarantined: shown to demonstrate the contaminant filter.",
+  "custody": [
+   {
+    "date": "2026-08-26",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-08-26",
+    "event": "COA issued",
+    "actor": "Control Laboratories (DEMO report)"
+   }
+  ]
+ },
+ {
+  "id": "LOT-PCW-04",
+  "demo": true,
+  "org_id": "demo-prairie",
+  "site_index": 0,
+  "name": "Fine char, damp",
+  "feedstock": "Urban oak and ash",
+  "feedClass": "wood",
+  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "production_date": "2026-07-18",
+  "quantity_t": 40,
+  "price_ask_per_t": 330,
+  "price_provenance": "demo",
+  "properties": {
+   "bulk_density": {
+    "value": 207,
+    "unit": "kg/m³",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "moisture": {
+    "value": 28,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ash": {
+    "value": 5.6,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "c_org": {
+    "value": 85.5,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "fixed_carbon": {
+    "value": 80,
+    "unit": "% dry",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "h_corg": {
+    "value": 0.44,
+    "unit": "molar",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ph": {
+    "value": 8.4,
+    "unit": "",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "ec": {
+    "value": 0.4,
+    "unit": "dS/m",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "cec": {
+    "value": 38,
+    "unit": "cmol/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "surface_area": {
+    "value": 420,
+    "unit": "m²/g",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "whc": {
+    "value": 306,
+    "unit": "% wt",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_As": {
+    "value": 2.12,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cd": {
+    "value": 1.18,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cr": {
+    "value": 48.45,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Cu": {
+    "value": 37.51,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Pb": {
+    "value": 18.24,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Hg": {
+    "value": 0.18,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Ni": {
+    "value": 25.85,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   },
+   "metal_Zn": {
+    "value": 204.73,
+    "unit": "mg/kg",
+    "lab": "Producer in-house (DEMO)",
+    "date": "2026-07-18",
+    "verification": "coa_uploaded"
+   }
+  },
+  "psd": [
+   {
+    "sieve_mm": 0.075,
+    "pct_passing": 35
+   },
+   {
+    "sieve_mm": 0.425,
+    "pct_passing": 80
+   },
+   {
+    "sieve_mm": 1,
+    "pct_passing": 96
+   },
+   {
+    "sieve_mm": 2,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 2.36,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 4,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 6.3,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 9.5,
+    "pct_passing": 100
+   },
+   {
+    "sieve_mm": 12.5,
+    "pct_passing": 100
+   }
+  ],
+  "packaging": [
+   "bulk_ftl",
+   "supersack"
+  ],
+  "lead_time_days": 7,
+  "status": "available",
+  "verification": "coa_uploaded",
+  "coa_date": "2026-07-18",
+  "longevity": null,
+  "certifications": [],
+  "notes": "High moisture: must be dried for concrete or asphalt.",
+  "custody": [
+   {
+    "date": "2026-07-18",
+    "event": "Produced and sampled",
+    "actor": "Producer"
+   },
+   {
+    "date": "2026-07-18",
+    "event": "COA issued",
+    "actor": "Producer in-house (DEMO)"
+   }
+  ]
+ }
+]
