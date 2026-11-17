@@ -4,6 +4,7 @@ const a = (key: string, label: string, value: number, unit: string, basis: Assum
 
 export const ASSUMPTION_LIST: Assumption[] = [
   a("usdPerTruckMile", "Full-truckload rate", 3.0, "$/truck-mile", "team", "CharLink v0.1: typical FTL range $2.50–3.50"),
+  a("ftlMinUsd", "Minimum charge per truck", 850, "$/truck", "estimate", "Short-haul minimum; no carrier quote yet"),
   a("truckWeightCapT", "Truck weight cap", 20, "t", "team", "CharLink v0.1; 20–22 t payload"),
   a("trailerM3", "53 ft trailer volume", 100, "m³", "team", "per-client-volume doc: 53' van ~100 m³"),
   a("kgCo2PerTruckMile", "Truck CO₂", 1.57, "kg CO₂/truck-mile", "team", "CharLink v0.1: ~10.2 kg CO₂/gal diesel at ~6.5 mpg"),
@@ -23,7 +24,7 @@ export const ASSUMPTION_LIST: Assumption[] = [
   a("blendUsdPerT", "Hub: blending lots", 12, "$/t input", "estimate", "No quote yet"),
   a("hubHandlingUsdPerT", "Hub: receiving and handling", 10, "$/t", "estimate", "No quote yet"),
   a("crushYield", "Share of oversize recovered into band after crushing", 0.7, "fraction", "estimate", "Rest becomes fines"),
-  a("minScreenYield", "Minimum in-band yield for a hub path to be feasible", 0.35, "fraction", "estimate", "Below this the lot is treated as too fine"),
+  a("minScreenYield", "Minimum in-band yield for a hub path to be feasible", 0.5, "fraction", "estimate", "Below this the lot is treated as too fine"),
   a("finesSalvageUsdPerT", "Value of off-spec fines sold to soil/ag", 150, "$/t", "estimate", "Below Midwest ag price of $300–500/t (team research)"),
   a("ltlPalletKg", "Biochar per LTL pallet (one supersack)", 250, "kg", "estimate", "1 m³ at 250 kg/m³"),
   a("parcelUsdPerKg", "Parcel shipping", 2.4, "$/kg", "estimate", "No carrier quote"),
@@ -45,6 +46,6 @@ export const ASSUMPTION_LIST: Assumption[] = [
 export type AssumptionMap = Record<string, number>;
 export const DEFAULTS: AssumptionMap = Object.fromEntries(ASSUMPTION_LIST.map((x) => [x.key, x.value]));
 // LTL per-pallet rate by distance band. Estimate until real quotes exist.
-export const LTL_BANDS = [{ maxMiles: 150, usd: 180 }, { maxMiles: 500, usd: 320 }, { maxMiles: 1000, usd: 480 }, { maxMiles: Infinity, usd: 650 }];
+export const LTL_BANDS = [{ maxMiles: 150, usd: 110 }, { maxMiles: 500, usd: 190 }, { maxMiles: 1000, usd: 290 }, { maxMiles: Infinity, usd: 420 }];
 export const HUB = { id: "hub-chicago", name: "CharLink finishing hub (planned)", city: "Chicago, IL", lat: 41.75, lng: -87.8 };
 export const SEASONALITY = "Landscape and stormwater work runs May–October in the Midwest. Stock and finish November–April; deliver May–October (phase-1 transport protocol).";

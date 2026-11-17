@@ -455,7 +455,7 @@
   "process": "Slow pyrolysis, ~600 °C (DEMO)",
   "production_date": "2026-09-03",
   "quantity_t": 40,
-  "price_ask_per_t": 890,
+  "price_ask_per_t": 640,
   "price_provenance": "demo",
   "properties": {
    "bulk_density": {
@@ -897,7 +897,7 @@
   "grade_code": "CL-BR",
   "feedstock": "Hardwood",
   "feedClass": "wood",
-  "process": "Slow pyrolysis, ~600 °C (DEMO)",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
   "production_date": "2026-06-05",
   "quantity_t": 24,
   "price_ask_per_t": 465,
@@ -967,77 +967,77 @@
     "verification": "third_party"
    },
    "surface_area": {
-    "value": 463,
+    "value": 410,
     "unit": "m²/g",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "whc": {
-    "value": 235,
+    "value": 308,
     "unit": "% wt",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_As": {
-    "value": 1.29,
+    "value": 4.49,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Cd": {
-    "value": 0.91,
+    "value": 0.14,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Cr": {
-    "value": 40.85,
+    "value": 45.32,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Cu": {
-    "value": 78.59,
+    "value": 61.45,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Pb": {
-    "value": 5.94,
+    "value": 34.71,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Hg": {
-    "value": 0.02,
+    "value": 0.04,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Ni": {
-    "value": 19.42,
+    "value": 3.89,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "metal_Zn": {
-    "value": 243.07,
+    "value": 143.15,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
     "verification": "third_party"
    },
    "pah16": {
-    "value": 4,
+    "value": 4.7,
     "unit": "mg/kg",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
@@ -1051,7 +1051,7 @@
     "verification": "third_party"
    },
    "ksat": {
-    "value": 103,
+    "value": 433,
     "unit": "cm/h",
     "lab": "Control Laboratories (DEMO report)",
     "date": "2026-06-05",
@@ -1100,7 +1100,7 @@
    "bulk_ftl",
    "supersack"
   ],
-  "lead_time_days": 15,
+  "lead_time_days": 9,
   "status": "available",
   "verification": "third_party",
   "coa_date": "2026-06-05",
@@ -1445,7 +1445,7 @@
   "grade_code": "CL-BR",
   "feedstock": "Wood chips",
   "feedClass": "wood",
-  "process": "Slow pyrolysis, ~700 °C (DEMO)",
+  "process": "Slow pyrolysis, ~550 °C (DEMO)",
   "production_date": "2026-07-15",
   "quantity_t": 20,
   "price_ask_per_t": 480,
@@ -1515,70 +1515,70 @@
     "verification": "coa_uploaded"
    },
    "surface_area": {
-    "value": 295,
+    "value": 365,
     "unit": "m²/g",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "whc": {
-    "value": 194,
+    "value": 183,
     "unit": "% wt",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_As": {
-    "value": 7.49,
+    "value": 2.79,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Cd": {
-    "value": 0.83,
+    "value": 1.12,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Cr": {
-    "value": 28.14,
+    "value": 41.39,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Cu": {
-    "value": 34.69,
+    "value": 42.5,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Pb": {
-    "value": 34.08,
+    "value": 14.37,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Hg": {
-    "value": 0.14,
+    "value": 0.25,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Ni": {
-    "value": 7.26,
+    "value": 17.48,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
     "verification": "coa_uploaded"
    },
    "metal_Zn": {
-    "value": 47.08,
+    "value": 51.93,
     "unit": "mg/kg",
     "lab": "Producer in-house (DEMO)",
     "date": "2026-07-15",
@@ -1627,7 +1627,7 @@
    "supersack",
    "bulk_ftl"
   ],
-  "lead_time_days": 12,
+  "lead_time_days": 16,
   "status": "available",
   "verification": "coa_uploaded",
   "coa_date": "2026-07-15",

@@ -57,17 +57,17 @@ const psd = (k: string): PsdPoint[] => SIEVES.map((s, i) => ({ sieve_mm: s, pct_
 const LABS = ["Control Laboratories (DEMO report)", "Producer in-house (DEMO)"];
 
 interface L { id: string; org: string; site?: number; name: string; grade?: string; psd: string; feed: FeedClass; feedstock: string; qty: number; price: number; ver: Verification; coa?: string; lead?: number;
-  moisture?: number; fc?: number; pb?: number; longevity?: Lot["longevity"]; pack?: string[]; certs?: string[]; notes?: string; process?: string; }
+  moisture?: number; fc?: number; pb?: number; sa?: number; longevity?: Lot["longevity"]; pack?: string[]; certs?: string[]; notes?: string; process?: string; }
 const lotRows: L[] = [
   // Coarse filtration lots are rare on purpose: interviews say the market is too fine.
   { id: "LOT-MTZ-01", org: "metzler", name: "Stormwater media, coarse", grade: "CL-FC", psd: "coarse", feed: "wood", feedstock: "Forestry wood", qty: 18, price: 980, ver: "third_party", longevity: { pollutant: "Zinc", bed_volumes: 2400, note: "DEMO column result at pH 7; not a real test" }, pack: ["supersack", "bag"] },
   { id: "LOT-BLC-01", org: "biologicalcarbon", name: "Custom filter char, 2–10 mm", grade: "CL-FC", psd: "coarse", feed: "wood", feedstock: "Douglas fir", qty: 12, price: 1050, ver: "coa_uploaded", pack: ["supersack"] },
-  { id: "LOT-GLN-01", org: "glanris", name: "Rice-hull granular media", grade: "CL-FM", psd: "medium", feed: "ag", feedstock: "Rice hulls", qty: 40, price: 890, ver: "third_party", pack: ["supersack", "bag"], longevity: { pollutant: "Copper", bed_volumes: 1500, note: "DEMO column result; not a real test" } },
+  { id: "LOT-GLN-01", org: "glanris", name: "Rice-hull granular media", grade: "CL-FM", psd: "medium", feed: "ag", feedstock: "Rice hulls", qty: 40, price: 640, ver: "third_party", pack: ["supersack", "bag"], longevity: { pollutant: "Copper", bed_volumes: 1500, note: "DEMO column result; not a real test" } },
   { id: "LOT-ABC-01", org: "amerbiochar", name: "Unscreened kiln char", psd: "unscreened", feed: "wood", feedstock: "Hardwood", qty: 26, price: 420, ver: "coa_uploaded", pack: ["bulk_ftl", "supersack"], notes: "Wide size range: screen at the hub for coarse or medium grades." },
-  { id: "LOT-ABC-02", org: "amerbiochar", name: "Bioretention-size char", grade: "CL-BR", psd: "bioretention", feed: "wood", feedstock: "Hardwood", qty: 24, price: 465, ver: "third_party", pack: ["bulk_ftl", "supersack"], certs: ["IBI (DEMO)"] },
+  { id: "LOT-ABC-02", org: "amerbiochar", name: "Bioretention-size char", grade: "CL-BR", psd: "bioretention", feed: "wood", feedstock: "Hardwood", qty: 24, price: 465, ver: "third_party", sa: 410, pack: ["bulk_ftl", "supersack"], certs: ["IBI (DEMO)"] },
   { id: "LOT-TCH-01", org: "terrachar", name: "High-carbon lump char", psd: "coarse_unrinsed", feed: "wood", feedstock: "Oak and hickory", qty: 60, price: 520, ver: "coa_uploaded", fc: 90, pack: ["bulk_ftl", "supersack"], notes: "High fixed carbon. Unrinsed: fines must be screened out for filter use." },
   { id: "LOT-TCH-02", org: "terrachar", name: "Soil-grade char", grade: "CL-AG", psd: "fine", feed: "wood", feedstock: "Mixed hardwood", qty: 80, price: 360, ver: "self_reported", pack: ["bulk_ftl"] },
-  { id: "LOT-GQ-01", org: "greenquest", name: "Screened char, 0.4–2.4 mm", grade: "CL-BR", psd: "bioretention", feed: "wood", feedstock: "Wood chips", qty: 20, price: 480, ver: "coa_uploaded", pack: ["supersack", "bulk_ftl"] },
+  { id: "LOT-GQ-01", org: "greenquest", name: "Screened char, 0.4–2.4 mm", grade: "CL-BR", psd: "bioretention", feed: "wood", feedstock: "Wood chips", qty: 20, price: 480, ver: "coa_uploaded", sa: 365, pack: ["supersack", "bulk_ftl"] },
   { id: "LOT-BWS-01", org: "blackwood", name: "Mobile carbonizer char, unscreened", psd: "unscreened", feed: "wood", feedstock: "Land-clearing wood", qty: 35, price: 310, ver: "self_reported", pack: ["bulk_ftl"], notes: "No COA. Sample and hub test required before sale." },
   { id: "LOT-ARTI-01", org: "arti", name: "Fine char", grade: "CL-AG", psd: "fine", feed: "wood", feedstock: "Wood chips", qty: 45, price: 380, ver: "coa_uploaded", coa: "2024-03-12", pack: ["bulk_ftl", "supersack"], notes: "COA is more than two years old." },
   { id: "LOT-LIF-01", org: "liferaft", name: "Ag-residue char", grade: "CL-AG", psd: "fine", feed: "ag", feedstock: "Corn stover", qty: 120, price: 300, ver: "coa_uploaded", pack: ["bulk_ftl"] },
@@ -100,7 +100,7 @@ function makeLot(r: L): Lot {
     fixed_carbon: v(r.fc ?? Math.round(c - 4 - rand() * 4), "% dry"), h_corg: v(pick("h_corg", 100), "molar"), ph: v(pick("ph", 10), ""),
   };
   if (r.ver !== "self_reported") {
-    Object.assign(props, { ec: v(pick("ec", 10), "dS/m"), cec: v(pick("cec"), "cmol/kg"), surface_area: v(pick("surface_area"), "m²/g"), whc: v(pick("whc"), "% wt") });
+    Object.assign(props, { ec: v(pick("ec", 10), "dS/m"), cec: v(pick("cec"), "cmol/kg"), surface_area: v(r.sa ?? pick("surface_area"), "m²/g"), whc: v(pick("whc"), "% wt") });
     const metals: Record<string, [number, number]> = { As: [1, 8], Cd: [0.1, 1.2], Cr: [5, 60], Cu: [8, 90], Pb: [2, 40], Hg: [0.01, 0.3], Ni: [3, 35], Zn: [20, 260] };
     for (const [m, [a, b]] of Object.entries(metals)) props[`metal_${m}`] = v(m === "Pb" && r.pb ? r.pb : Math.round((a + rand() * (b - a)) * 100) / 100, "mg/kg");
   }
